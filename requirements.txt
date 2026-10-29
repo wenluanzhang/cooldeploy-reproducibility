@@ -1,0 +1,2 @@
+# Only the optional figure command needs this package.
+matplotlib==3.11.2

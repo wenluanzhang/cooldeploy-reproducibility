@@ -1,0 +1,12 @@
+CoolDeploy R1 licensing
+
+Code, tests and documentation: MIT (see LICENSE_CODE).
+Project-generated processed numerical data under data/processed/: Creative
+Commons Attribution 4.0 International (CC BY 4.0; see LICENSE_DATA).
+Generated numerical tables/plots derived from these data carry CC BY 4.0.
+Copyright (c) 2026 CoolDeploy contributors.
+
+This choice was explicitly approved by the author for this release candidate.
+Third-party original weather, prototype models, simulator software, manuscript
+and journal figures are not included or relicensed by these notices. Source
+identifiers and hashes do not grant permission to redistribute those originals.

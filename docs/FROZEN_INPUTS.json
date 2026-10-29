@@ -1,0 +1,246 @@
+[
+  {
+    "public_path": "data/processed/canonical/case_reality_216.csv",
+    "source_git_commit": "437871b85d8a93cf6ad8e2c6e3aa767d224023fe",
+    "source_sha256": "d067f50d9348a0f35563cb174d620d6301282796fc2e2407bc2c6147beef6ef8",
+    "public_sha256": "5d5bdbf47a716660faf14827e92036224fae66edc0491c167aad2aec4709fb84",
+    "rows": 216,
+    "key": "family,roof",
+    "units": "See docs/DATA_DICTIONARY.md; source numeric strings retained",
+    "claim": "Main 2; SI S1/S5/S6: 216 annual identities, areas, bills, warnings",
+    "basename_columns": []
+  },
+  {
+    "public_path": "data/processed/canonical/pair_rebilling_108.csv",
+    "source_git_commit": "437871b85d8a93cf6ad8e2c6e3aa767d224023fe",
+    "source_sha256": "7d1222ea335da6a110df66b12af92fb47b88de73702da713a1df688941ef7827",
+    "public_sha256": "1b2a9601b8a88b204fa055a2bdc14fd829e618334c482f5109106f9a22a7f7f6",
+    "rows": 108,
+    "key": "family,pair",
+    "units": "See docs/DATA_DICTIONARY.md; source numeric strings retained",
+    "claim": "Main 2/3/5A; 108 signed A-minus-B/C comparisons",
+    "basename_columns": []
+  },
+  {
+    "public_path": "data/processed/canonical/static_54.csv",
+    "source_git_commit": "437871b85d8a93cf6ad8e2c6e3aa767d224023fe",
+    "source_sha256": "7ec866d8e9d1e187513dfcf2e2cbc88426001dd4e185f64691cdf2e93e6a9fcb",
+    "public_sha256": "7ec866d8e9d1e187513dfcf2e2cbc88426001dd4e185f64691cdf2e93e6a9fcb",
+    "rows": 54,
+    "key": "family",
+    "units": "See docs/DATA_DICTIONARY.md; source numeric strings retained",
+    "claim": "Main 2A: static 0-minus-A context",
+    "basename_columns": []
+  },
+  {
+    "public_path": "data/processed/canonical/monthly_native_rebilling.csv",
+    "source_git_commit": "437871b85d8a93cf6ad8e2c6e3aa767d224023fe",
+    "source_sha256": "3d5f1a250956db6a87928d5de66987415e7a1258cd4a9b120094e576ab302523",
+    "public_sha256": "3d5f1a250956db6a87928d5de66987415e7a1258cd4a9b120094e576ab302523",
+    "rows": 7776,
+    "key": "family,roof,month,carrier",
+    "units": "See docs/DATA_DICTIONARY.md; source numeric strings retained",
+    "claim": "Main 4/5B; SI S3/S7: native carrier rebilling and winter mask",
+    "basename_columns": []
+  },
+  {
+    "public_path": "data/processed/canonical/family_carrier_price_162.csv",
+    "source_git_commit": "437871b85d8a93cf6ad8e2c6e3aa767d224023fe",
+    "source_sha256": "2200b713b4163e63525df0d1ce444d2025b0188363708a634aa5c2aaf6b966e4",
+    "public_sha256": "2200b713b4163e63525df0d1ce444d2025b0188363708a634aa5c2aaf6b966e4",
+    "rows": 162,
+    "key": "family,carrier",
+    "units": "See docs/DATA_DICTIONARY.md; source numeric strings retained",
+    "claim": "Main 4; SI Table S3: frozen sector/carrier prices",
+    "basename_columns": []
+  },
+  {
+    "public_path": "data/processed/canonical/weather_prototype_54.csv",
+    "source_git_commit": "437871b85d8a93cf6ad8e2c6e3aa767d224023fe",
+    "source_sha256": "07c34c1948fb08641362c3deb6312e0d84e6848d4cb1ea8d0fdfe60ea4f77f66",
+    "public_sha256": "456058b41906e78f7f3a0aae95f6e7ee1d46be23cc8930e779d4b4707feee29f",
+    "rows": 54,
+    "key": "family",
+    "units": "See docs/DATA_DICTIONARY.md; source numeric strings retained",
+    "claim": "Main 1 anchors; SI Table S1: stations/prototype identifiers",
+    "basename_columns": [
+      "actual_EPW",
+      "prototype_source"
+    ]
+  },
+  {
+    "public_path": "data/processed/canonical/numerical_and_service_216.csv",
+    "source_git_commit": "437871b85d8a93cf6ad8e2c6e3aa767d224023fe",
+    "source_sha256": "78332cebfd04c9c6494f624ea399ab3990585d70753421e1b0d4eeab971d3415",
+    "public_sha256": "78332cebfd04c9c6494f624ea399ab3990585d70753421e1b0d4eeab971d3415",
+    "rows": 216,
+    "key": "family,roof",
+    "units": "See docs/DATA_DICTIONARY.md; source numeric strings retained",
+    "claim": "SI S6; separate occupied heating/cooling service and numerical limitations",
+    "basename_columns": []
+  },
+  {
+    "public_path": "data/processed/canonical/price_40_means.csv",
+    "source_git_commit": "437871b85d8a93cf6ad8e2c6e3aa767d224023fe",
+    "source_sha256": "41124dfdc1d68255ea57c476e17aea3483b2054cb2bd517b6536dfc3b86786bb",
+    "public_sha256": "59ed958866b0637e1b1e026c15fb11e6e748f4531ae83ae01ca029d17d680bd3",
+    "rows": 40,
+    "key": "see header",
+    "units": "See docs/DATA_DICTIONARY.md; source numeric strings retained",
+    "claim": "SI Table S3; frozen price means and source identifiers",
+    "basename_columns": [
+      "source"
+    ]
+  },
+  {
+    "public_path": "data/processed/economics/native_carrier_coefficients_108.csv",
+    "source_git_commit": "437871b85d8a93cf6ad8e2c6e3aa767d224023fe",
+    "source_sha256": "32d2c2bef3ac3f9980e26923cf2be75a6502534584700b210b35341072a31492",
+    "public_sha256": "026295cc15f9b011dd605eef76029b399a4142e8862c2997ca6065af38724b49",
+    "rows": 108,
+    "key": "family,target_roof",
+    "units": "See docs/DATA_DICTIONARY.md; source numeric strings retained",
+    "claim": "Main 3/4: seven end uses and three purchased carriers",
+    "basename_columns": [
+      "monthly_source",
+      "pair_source"
+    ]
+  },
+  {
+    "public_path": "data/processed/economics/native_price_break_even_boundaries_108.csv",
+    "source_git_commit": "437871b85d8a93cf6ad8e2c6e3aa767d224023fe",
+    "source_sha256": "a592c339c7889e6f4a94b3ed98301c0043e6d0aaa870eb3318ace2aa66bf4616",
+    "public_sha256": "a592c339c7889e6f4a94b3ed98301c0043e6d0aaa870eb3318ace2aa66bf4616",
+    "rows": 324,
+    "key": "family,target_roof,carrier",
+    "units": "See docs/DATA_DICTIONARY.md; source numeric strings retained",
+    "claim": "SI S7: 324 analytic boundary entries",
+    "basename_columns": []
+  },
+  {
+    "public_path": "data/processed/economics/native_PV_headroom_108x5.csv",
+    "source_git_commit": "437871b85d8a93cf6ad8e2c6e3aa767d224023fe",
+    "source_sha256": "89b726e0866f6932ef429fccdce585b6318cd15550b4502e0706cc34081e6867",
+    "public_sha256": "89b726e0866f6932ef429fccdce585b6318cd15550b4502e0706cc34081e6867",
+    "rows": 540,
+    "key": "family,target_roof,setting",
+    "units": "See docs/DATA_DICTIONARY.md; source numeric strings retained",
+    "claim": "SI S7: 540 financial accounting rows",
+    "basename_columns": []
+  },
+  {
+    "public_path": "data/processed/economics/winter_availability_native_60x4.csv",
+    "source_git_commit": "437871b85d8a93cf6ad8e2c6e3aa767d224023fe",
+    "source_sha256": "69cc6220b8e67b09765c327a2940beef06c76518d258aef4757856f0524cf4ee",
+    "public_sha256": "69cc6220b8e67b09765c327a2940beef06c76518d258aef4757856f0524cf4ee",
+    "rows": 240,
+    "key": "family,target_roof,retained_function_fraction",
+    "units": "See docs/DATA_DICTIONARY.md; source numeric strings retained",
+    "claim": "Main 5B; SI S7: 240 common-mask accounting rows",
+    "basename_columns": []
+  },
+  {
+    "public_path": "data/processed/width/matched_54_width_comparisons.csv",
+    "source_git_commit": "437871b85d8a93cf6ad8e2c6e3aa767d224023fe",
+    "source_sha256": "ba63fbc7c0dca5300ef79760b5838ff110cca9acee09c2700d99d74110c7db60",
+    "public_sha256": "c147be6b2d759ddd4f7e8ebec59cef813fc529cc2ab7f948bcb158377fbad02b",
+    "rows": 54,
+    "key": "family",
+    "units": "See docs/DATA_DICTIONARY.md; source numeric strings retained",
+    "claim": "SI S5/Fig S2: 54 separate near-sharp B comparisons",
+    "basename_columns": []
+  },
+  {
+    "public_path": "data/processed/width/illustrative_native_cases.csv",
+    "source_git_commit": "437871b85d8a93cf6ad8e2c6e3aa767d224023fe",
+    "source_sha256": "36acf87dd2a57ac4d5286fc604cc0682ce5b8f207cc96b1a8f050228ef2ec06f",
+    "public_sha256": "4f404ad76d90e1974517af7bdcac156dbbbcfd4f3ce897895f4a04245180274f",
+    "rows": 10,
+    "key": "family,roof",
+    "units": "See docs/DATA_DICTIONARY.md; source numeric strings retained",
+    "claim": "SI Table S4: Seattle/Chicago 0/A/B/C/Bsharp examples",
+    "basename_columns": []
+  },
+  {
+    "public_path": "data/processed/width/native_day_traces.csv",
+    "source_git_commit": "437871b85d8a93cf6ad8e2c6e3aa767d224023fe",
+    "source_sha256": "d16be5d7dcddbbca3be6aa3d46a70e81c6ceffcbb2addd7e5802a0edc3c56a53",
+    "public_sha256": "d278ad92632ab826fd2cf6326125e78e5b8736370bfddab5b3e18455e9c1412d",
+    "rows": 288,
+    "key": "family,native_TimeIndex",
+    "units": "See docs/DATA_DICTIONARY.md; source numeric strings retained",
+    "claim": "SI Figs S3/S4: 288 native ten-minute trace records",
+    "basename_columns": []
+  },
+  {
+    "public_path": "data/processed/width/sharp_native_enduse_costs.csv",
+    "source_git_commit": "437871b85d8a93cf6ad8e2c6e3aa767d224023fe",
+    "source_sha256": "f3abee911ddd9486d9cadc211b358ab24060d365b3d172f1a53c47046034b6d2",
+    "public_sha256": "f7042082023e0e1b2632e7d3da0e24265e1daf4aac9d5545f806babf64af3466",
+    "rows": 5670,
+    "key": "family,roof,end_use,carrier",
+    "units": "See docs/DATA_DICTIONARY.md; source numeric strings retained",
+    "claim": "SI Fig S1 and Table S4; 5670 native annual costs",
+    "basename_columns": []
+  },
+  {
+    "public_path": "data/processed/optical/matched_optical_comparisons_108.csv",
+    "source_git_commit": "437871b85d8a93cf6ad8e2c6e3aa767d224023fe",
+    "source_sha256": "b1c67a6ae465cf10e366b6cef143788011b7dcab65f54d46716f9c0696b601c4",
+    "public_sha256": "b1c67a6ae465cf10e366b6cef143788011b7dcab65f54d46716f9c0696b601c4",
+    "rows": 108,
+    "key": "family,condition",
+    "units": "See docs/DATA_DICTIONARY.md; source numeric strings retained",
+    "claim": "Main 5C; SI S8/Table S5: separate 108 optical contrasts",
+    "basename_columns": []
+  },
+  {
+    "public_path": "data/processed/optical/descriptive_summary.csv",
+    "source_git_commit": "437871b85d8a93cf6ad8e2c6e3aa767d224023fe",
+    "source_sha256": "2ce11986deffb72abe8fc5f13453b14da15f843f26bddaaa0334a2859bc67c81",
+    "public_sha256": "2ce11986deffb72abe8fc5f13453b14da15f843f26bddaaa0334a2859bc67c81",
+    "rows": 6,
+    "key": "condition",
+    "units": "See docs/DATA_DICTIONARY.md; source numeric strings retained",
+    "claim": "Main 5C; SI Table S5: six states, 18 families each",
+    "basename_columns": []
+  },
+  {
+    "public_path": "data/processed/optical/native_enduse_costs.csv",
+    "source_git_commit": "437871b85d8a93cf6ad8e2c6e3aa767d224023fe",
+    "source_sha256": "557debb0d3273649e1d446983f7a32952c3c12319b188d9e23fcf897311f7ceb",
+    "public_sha256": "557debb0d3273649e1d446983f7a32952c3c12319b188d9e23fcf897311f7ceb",
+    "rows": 3024,
+    "key": "family,variant,end_use,carrier",
+    "units": "See docs/DATA_DICTIONARY.md; source numeric strings retained",
+    "claim": "SI S8: native optical carrier/end-use closure",
+    "basename_columns": []
+  },
+  {
+    "public_path": "data/processed/optical/native_monthly_carriers.csv",
+    "source_git_commit": "437871b85d8a93cf6ad8e2c6e3aa767d224023fe",
+    "source_sha256": "b79c18794cc0b44669374e0d08f0f7e1577de1a6827be52597af6cffeb542060",
+    "public_sha256": "b79c18794cc0b44669374e0d08f0f7e1577de1a6827be52597af6cffeb542060",
+    "rows": 5184,
+    "key": "family,variant,carrier,month",
+    "units": "See docs/DATA_DICTIONARY.md; source numeric strings retained",
+    "claim": "SI S8: native optical rebilling",
+    "basename_columns": []
+  },
+  {
+    "public_path": "data/processed/optical/service_numerical.csv",
+    "source_git_commit": "437871b85d8a93cf6ad8e2c6e3aa767d224023fe",
+    "source_sha256": "a5e03827f51dfcd6c9fd576f8680630aecc1808c17222a641761fb914f6e7e0e",
+    "public_sha256": "6016d8206d3a1d5eab8b38ee93a33526ad367ac1a9f5b0ce266f8430c202bc63",
+    "rows": 144,
+    "key": "family,variant",
+    "units": "See docs/DATA_DICTIONARY.md; source numeric strings retained",
+    "claim": "SI S8: optical baseline/new-year qualifications",
+    "basename_columns": []
+  },
+  {
+    "public_path": "data/processed/expected_main_plot_values.json",
+    "public_sha256": "685a63e2d09cc83a4498006b68f475b36ec869fbd7b2343b5882aeac441f4197",
+    "claim": "Accepted numerical backing for Main 2/3/4/5A/B; no artwork"
+  }
+]

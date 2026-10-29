@@ -1,54 +1,65 @@
-# CoolDeploy reproducibility package
+# CoolDeploy R1 numerical reproducibility
 
-This repository contains the analysis code and processed numerical results for
-the CoolDeploy study of the additional economic value of temperature-adaptive
-radiative roofs relative to a high-performance static radiative-cooling
-baseline.
+This candidate reproduces the revised study's **numerical analysis from frozen
+processed EnergyPlus outputs**: nine U.S. weather anchors, six native building/HVAC
+configurations, roofs 0/A/B/C, 216 canonical annuals and 108 A-minus-B/C comparisons.
+It also separates the 54 near-sharp B sensitivity years from the controlled optical
+study (18 families, six states, 108 extra annuals and 108 optical contrasts).
 
-The repository is a reproducibility package for the numerical analysis. It
-does not contain manuscript files, supplementary files, publication artwork,
-or literature PDFs.
+Python 3.10+ is required. Validation, table/figure-data regeneration and tests use
+only the Python standard library. Start from this directory:
 
-## Scope
+```sh
+python src/reproduce.py validate
+python src/reproduce.py tables --output generated
+python -m unittest discover -s tests -v
+# Optional numerical plots; Python 3.11+ and the pinned dependency:
+python -m pip install -r requirements.txt
+python src/reproduce.py figures --output generated
+```
 
-The retained analysis evaluates:
+`tables` is the single entry point for all derived numerical tables and figure
+backing data. It checks frozen file hashes before computing, writes only under the
+selected output directory, and never modifies `data/processed/`. `validate` is
+read-only. `figures` draws numerical plots from those tables, not pixel-identical
+publication artwork. The publication's approved figures are not rebuilt in place.
 
-- annual operating-cost differences derived from frozen building-energy
-  simulation outputs;
-- the maximum justifiable additional installed cost of adaptive roofs relative
-  to the static radiative-cooling baseline;
-- sensitivity to heating technology and conversion efficiency;
-- sensitivity to electricity and natural-gas prices;
-- present-value assumptions;
-- differential service burden;
-- cold-season roof availability; and
-- controlled optical-function changes.
+## Physical evidence and accounting assumptions
 
-The quantitative analysis is restricted to the modeled U.S. cases.
+The physical inputs hold installed nominal equipment and prescribed controls
+fixed within each family across roofs. Non-HP families use the original0 fixed
+implementation; residential HP families use original0-derived numeric child
+capacities/flows, with parent initialization source-inferred rather than directly
+observed. Fixed inputs do not establish equal delivered service. The canonical
+216 annuals retain **93 NUMERICAL_REVIEW_REQUIRED** records; unmet heating/cooling
+hours and the absence of an annual numerical-error bound remain explicit.
 
-## Current numerical result sets
+Costs use native purchased Electricity, NaturalGas and FuelOilNo2 in seven disjoint
+end uses (Heating, Cooling, Fans, Pumps, HeatRejection, Humidification,
+HeatRecovery). SWH is physically removed from these runs; lighting/plug bills are
+excluded. No delivered-load-to-purchased-energy efficiency substitution is used.
+Positive signed A-minus-target values mean lower target bills. Normalization uses
+physical treated roof area. Twenty years, 5% real discount, stationary annual
+savings and frozen carrier prices are accounting assumptions, not measured
+product lifetime, complete ownership cost or environmental LCA. The winter mask
+is hypothetical common-difference accounting, not a physical snow simulation.
 
-The current economic analyses are stored in:
+## Scope of reproduction
 
-- `data/processed/joint_economic_robustness/`
-- `data/processed/joint_economic_downstream/`
+The numerical closure includes 43/54 positive B and 41/54 positive C comparisons,
+B cheaper than C in 50/54, signed medians 1.4125274257 and 0.6858116473 USD/m² roof,
+and adverse native Cooling contributions in all 108 canonical comparisons.
+See [RESULTS_MAP](docs/RESULTS_MAP.md), [DATA_DICTIONARY](docs/DATA_DICTIONARY.md)
+and [PROVENANCE](docs/PROVENANCE.md) for keys, units and limits.
 
-Files retained elsewhere in `data/processed/`, if any, are included only when
-they are direct dependencies of the current analysis.
+This repository does **not** reproduce EnergyPlus from scratch. The executable,
+full IDF/EPW environment, third-party prototype/weather content and raw native
+outputs are not bundled. Public source identifiers and hashes are supplied;
+independent annual runs require obtaining those inputs and rebuilding the model
+boundary and equipment/control policy. No physics is rerun by these commands.
 
-## Reproducibility
-
-The analysis uses frozen processed building-energy outputs and economic
-post-processing. Reproducing the reported economic results does not require
-rerunning EnergyPlus unless explicitly documented otherwise.
-
-See the retained analysis scripts and data documentation for the exact inputs,
-outputs, and assumptions.
-
-Install Python 3.10 or later with `numpy`, `pandas`, and `pytest`. Run
-`pytest -q` to verify the retained results. Run
-`python src/rebase_joint_economic_downstream.py` to regenerate the downstream
-economic tables from the frozen inputs.
-
-The four files in `data/processed/frozen_physical_inputs/` are project-generated
-processed building-energy outputs; no third-party source data are redistributed.
+Release status: local candidate awaiting author manifest review and publication
+approval. Code/documentation use MIT; project-generated processed data use CC BY
+4.0, as selected by the author. See LICENSE, LICENSE_CODE and LICENSE_DATA.
+The previous public snapshot is superseded in full;
+its historical calculations are not dependencies of this workflow.

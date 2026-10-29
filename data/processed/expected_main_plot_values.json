@@ -1,0 +1,2926 @@
+{
+  "figure2": {
+    "distributions": {
+      "A": {
+        "families": [
+          "Miami/MediumOffice/official_native",
+          "Miami/SmallOffice/official_native",
+          "Miami/SingleFamily/gasfurnace",
+          "Miami/SingleFamily/hp",
+          "Miami/SingleFamily/elecres",
+          "Miami/SingleFamily/oilfurnace",
+          "Phoenix/MediumOffice/official_native",
+          "Phoenix/SmallOffice/official_native",
+          "Phoenix/SingleFamily/gasfurnace",
+          "Phoenix/SingleFamily/hp",
+          "Phoenix/SingleFamily/elecres",
+          "Phoenix/SingleFamily/oilfurnace",
+          "Baltimore/MediumOffice/official_native",
+          "Baltimore/SmallOffice/official_native",
+          "Baltimore/SingleFamily/gasfurnace",
+          "Baltimore/SingleFamily/hp",
+          "Baltimore/SingleFamily/elecres",
+          "Baltimore/SingleFamily/oilfurnace",
+          "Seattle/MediumOffice/official_native",
+          "Seattle/SmallOffice/official_native",
+          "Seattle/SingleFamily/gasfurnace",
+          "Seattle/SingleFamily/hp",
+          "Seattle/SingleFamily/elecres",
+          "Seattle/SingleFamily/oilfurnace",
+          "Denver/MediumOffice/official_native",
+          "Denver/SmallOffice/official_native",
+          "Denver/SingleFamily/gasfurnace",
+          "Denver/SingleFamily/hp",
+          "Denver/SingleFamily/elecres",
+          "Denver/SingleFamily/oilfurnace",
+          "Chicago/MediumOffice/official_native",
+          "Chicago/SmallOffice/official_native",
+          "Chicago/SingleFamily/gasfurnace",
+          "Chicago/SingleFamily/hp",
+          "Chicago/SingleFamily/elecres",
+          "Chicago/SingleFamily/oilfurnace",
+          "Minneapolis/MediumOffice/official_native",
+          "Minneapolis/SmallOffice/official_native",
+          "Minneapolis/SingleFamily/gasfurnace",
+          "Minneapolis/SingleFamily/hp",
+          "Minneapolis/SingleFamily/elecres",
+          "Minneapolis/SingleFamily/oilfurnace",
+          "InternationalFalls/MediumOffice/official_native",
+          "InternationalFalls/SmallOffice/official_native",
+          "InternationalFalls/SingleFamily/gasfurnace",
+          "InternationalFalls/SingleFamily/hp",
+          "InternationalFalls/SingleFamily/elecres",
+          "InternationalFalls/SingleFamily/oilfurnace",
+          "Fairbanks/MediumOffice/official_native",
+          "Fairbanks/SmallOffice/official_native",
+          "Fairbanks/SingleFamily/gasfurnace",
+          "Fairbanks/SingleFamily/hp",
+          "Fairbanks/SingleFamily/elecres",
+          "Fairbanks/SingleFamily/oilfurnace"
+        ],
+        "values": [
+          5.659859906768648,
+          2.2357404288204585,
+          3.3518061020313605,
+          3.47380624466725,
+          3.29429812206184,
+          3.3311941447897877,
+          6.879539191921882,
+          2.782032883884777,
+          4.127146726505477,
+          4.44188252227447,
+          3.6279297343964463,
+          3.7974586179137124,
+          1.6157213804178814,
+          0.8195077314464219,
+          1.193787184052625,
+          1.153704676734473,
+          -0.5105006419947666,
+          0.542197535691706,
+          0.006388545855875787,
+          0.40634663740122823,
+          0.0038167141789158436,
+          0.3097477562307178,
+          -1.0378200812500313,
+          -0.8473670678622583,
+          1.4392946915896152,
+          0.2587457761008819,
+          1.0257711864767018,
+          0.40473672807416505,
+          -1.074320904192221,
+          -0.4144659687102181,
+          0.10058899007803883,
+          0.1548558911186661,
+          0.6096718319644494,
+          0.26809265459239395,
+          -1.3096313745259933,
+          -0.1924144843056174,
+          -0.6296625954271194,
+          -0.13421213227523834,
+          0.37682714941758133,
+          -0.10570171486736128,
+          -1.4653994398122898,
+          -0.7102461417562794,
+          -1.4411958605478787,
+          -0.2370691154538582,
+          -0.03035031120829715,
+          -0.9636697119424464,
+          -2.193979699534453,
+          -1.3056757217799693,
+          -1.4979047745169476,
+          0.08536675513569596,
+          0.27444130697673774,
+          -1.8628322300749383,
+          -3.622799702810545,
+          -1.02988232465539
+        ]
+      },
+      "B": {
+        "families": [
+          "Miami/MediumOffice/official_native",
+          "Miami/SmallOffice/official_native",
+          "Miami/SingleFamily/gasfurnace",
+          "Miami/SingleFamily/hp",
+          "Miami/SingleFamily/elecres",
+          "Miami/SingleFamily/oilfurnace",
+          "Phoenix/MediumOffice/official_native",
+          "Phoenix/SmallOffice/official_native",
+          "Phoenix/SingleFamily/gasfurnace",
+          "Phoenix/SingleFamily/hp",
+          "Phoenix/SingleFamily/elecres",
+          "Phoenix/SingleFamily/oilfurnace",
+          "Baltimore/MediumOffice/official_native",
+          "Baltimore/SmallOffice/official_native",
+          "Baltimore/SingleFamily/gasfurnace",
+          "Baltimore/SingleFamily/hp",
+          "Baltimore/SingleFamily/elecres",
+          "Baltimore/SingleFamily/oilfurnace",
+          "Seattle/MediumOffice/official_native",
+          "Seattle/SmallOffice/official_native",
+          "Seattle/SingleFamily/gasfurnace",
+          "Seattle/SingleFamily/hp",
+          "Seattle/SingleFamily/elecres",
+          "Seattle/SingleFamily/oilfurnace",
+          "Denver/MediumOffice/official_native",
+          "Denver/SmallOffice/official_native",
+          "Denver/SingleFamily/gasfurnace",
+          "Denver/SingleFamily/hp",
+          "Denver/SingleFamily/elecres",
+          "Denver/SingleFamily/oilfurnace",
+          "Chicago/MediumOffice/official_native",
+          "Chicago/SmallOffice/official_native",
+          "Chicago/SingleFamily/gasfurnace",
+          "Chicago/SingleFamily/hp",
+          "Chicago/SingleFamily/elecres",
+          "Chicago/SingleFamily/oilfurnace",
+          "Minneapolis/MediumOffice/official_native",
+          "Minneapolis/SmallOffice/official_native",
+          "Minneapolis/SingleFamily/gasfurnace",
+          "Minneapolis/SingleFamily/hp",
+          "Minneapolis/SingleFamily/elecres",
+          "Minneapolis/SingleFamily/oilfurnace",
+          "InternationalFalls/MediumOffice/official_native",
+          "InternationalFalls/SmallOffice/official_native",
+          "InternationalFalls/SingleFamily/gasfurnace",
+          "InternationalFalls/SingleFamily/hp",
+          "InternationalFalls/SingleFamily/elecres",
+          "InternationalFalls/SingleFamily/oilfurnace",
+          "Fairbanks/MediumOffice/official_native",
+          "Fairbanks/SmallOffice/official_native",
+          "Fairbanks/SingleFamily/gasfurnace",
+          "Fairbanks/SingleFamily/hp",
+          "Fairbanks/SingleFamily/elecres",
+          "Fairbanks/SingleFamily/oilfurnace"
+        ],
+        "values": [
+          -2.005687722927034,
+          -0.6613450383193843,
+          -0.4073837944909567,
+          -0.6248598294643104,
+          -0.2219989510124246,
+          -0.33861840007412825,
+          -1.7305707267627672,
+          -1.5619985294585181,
+          0.29506020376261266,
+          -0.30995548127943195,
+          1.2240748130821926,
+          0.8714514828058159,
+          3.5344856206199413,
+          0.14700990903584102,
+          1.1377467448193932,
+          1.1617788615557294,
+          4.1951467201179895,
+          2.2755808959550934,
+          1.9789515024414992,
+          -0.07805414094850016,
+          1.2793353765467124,
+          0.6628445926021358,
+          3.0282670856275695,
+          2.683525243432083,
+          1.3456992856334595,
+          -0.2500490036146452,
+          0.6876122030899259,
+          1.6839828540284543,
+          3.9530602740281426,
+          2.9039907615740153,
+          5.404148501845432,
+          0.9109977097280929,
+          1.076910879807857,
+          1.857065080131994,
+          4.6043463113428205,
+          2.521926274406952,
+          5.551773466983516,
+          1.2396101521089748,
+          1.002262359081827,
+          1.9698982643621714,
+          4.362465977572714,
+          2.967321914419207,
+          6.338773536259309,
+          1.0788312358959407,
+          1.4793555658055124,
+          3.655028113274908,
+          5.8517111823397165,
+          4.031956625967397,
+          12.237623999991493,
+          0.9340463747572461,
+          2.2662467955530796,
+          10.505271934199907,
+          13.17399345543708,
+          5.777424785624766
+        ]
+      },
+      "C": {
+        "families": [
+          "Miami/MediumOffice/official_native",
+          "Miami/SmallOffice/official_native",
+          "Miami/SingleFamily/gasfurnace",
+          "Miami/SingleFamily/hp",
+          "Miami/SingleFamily/elecres",
+          "Miami/SingleFamily/oilfurnace",
+          "Phoenix/MediumOffice/official_native",
+          "Phoenix/SmallOffice/official_native",
+          "Phoenix/SingleFamily/gasfurnace",
+          "Phoenix/SingleFamily/hp",
+          "Phoenix/SingleFamily/elecres",
+          "Phoenix/SingleFamily/oilfurnace",
+          "Baltimore/MediumOffice/official_native",
+          "Baltimore/SmallOffice/official_native",
+          "Baltimore/SingleFamily/gasfurnace",
+          "Baltimore/SingleFamily/hp",
+          "Baltimore/SingleFamily/elecres",
+          "Baltimore/SingleFamily/oilfurnace",
+          "Seattle/MediumOffice/official_native",
+          "Seattle/SmallOffice/official_native",
+          "Seattle/SingleFamily/gasfurnace",
+          "Seattle/SingleFamily/hp",
+          "Seattle/SingleFamily/elecres",
+          "Seattle/SingleFamily/oilfurnace",
+          "Denver/MediumOffice/official_native",
+          "Denver/SmallOffice/official_native",
+          "Denver/SingleFamily/gasfurnace",
+          "Denver/SingleFamily/hp",
+          "Denver/SingleFamily/elecres",
+          "Denver/SingleFamily/oilfurnace",
+          "Chicago/MediumOffice/official_native",
+          "Chicago/SmallOffice/official_native",
+          "Chicago/SingleFamily/gasfurnace",
+          "Chicago/SingleFamily/hp",
+          "Chicago/SingleFamily/elecres",
+          "Chicago/SingleFamily/oilfurnace",
+          "Minneapolis/MediumOffice/official_native",
+          "Minneapolis/SmallOffice/official_native",
+          "Minneapolis/SingleFamily/gasfurnace",
+          "Minneapolis/SingleFamily/hp",
+          "Minneapolis/SingleFamily/elecres",
+          "Minneapolis/SingleFamily/oilfurnace",
+          "InternationalFalls/MediumOffice/official_native",
+          "InternationalFalls/SmallOffice/official_native",
+          "InternationalFalls/SingleFamily/gasfurnace",
+          "InternationalFalls/SingleFamily/hp",
+          "InternationalFalls/SingleFamily/elecres",
+          "InternationalFalls/SingleFamily/oilfurnace",
+          "Fairbanks/MediumOffice/official_native",
+          "Fairbanks/SmallOffice/official_native",
+          "Fairbanks/SingleFamily/gasfurnace",
+          "Fairbanks/SingleFamily/hp",
+          "Fairbanks/SingleFamily/elecres",
+          "Fairbanks/SingleFamily/oilfurnace"
+        ],
+        "values": [
+          -3.4597167560285946,
+          -1.0885929054569854,
+          -1.1811551559563065,
+          -1.3740037398092255,
+          -1.0379040196052687,
+          -1.1315383941582002,
+          -3.9668716930616195,
+          -1.4031223987505461,
+          -0.9790450484654406,
+          -1.4731499826738486,
+          -0.2542476213577229,
+          -0.5297838304037364,
+          1.6900555519716058,
+          -0.015323904644875916,
+          0.1539104441127378,
+          0.17780787715266136,
+          2.0628455636732013,
+          0.8916567614648748,
+          1.4850655863497209,
+          0.02282750865587275,
+          0.6529758954353266,
+          0.2929079230663277,
+          1.732676949969155,
+          1.5221210037573987,
+          1.1931680867808954,
+          0.29870108351612096,
+          0.05723756679902199,
+          0.6651482112903866,
+          2.1325978708431723,
+          1.467868839566358,
+          2.7070205704547767,
+          0.4330735661346294,
+          0.2618098054793819,
+          0.6902327390944101,
+          2.2767969561337162,
+          1.088695782500969,
+          3.185153423089855,
+          0.6333567593326472,
+          0.31485229964408057,
+          0.8541000134578537,
+          2.2449480869757132,
+          1.4446241100367485,
+          3.75301472261637,
+          0.6813905554806031,
+          0.6813559002011015,
+          1.9300347235233108,
+          3.204024193223296,
+          2.1549662990393412,
+          8.411383788766607,
+          0.9989344214698147,
+          1.4253658978348691,
+          7.184231197647729,
+          8.592603832183405,
+          3.7297656552311897
+        ]
+      }
+    },
+    "landscape": [
+      {
+        "family": "Miami/MediumOffice/official_native",
+        "target": "B",
+        "value": -2.005687722927034
+      },
+      {
+        "family": "Miami/SmallOffice/official_native",
+        "target": "B",
+        "value": -0.6613450383193843
+      },
+      {
+        "family": "Miami/SingleFamily/gasfurnace",
+        "target": "B",
+        "value": -0.4073837944909567
+      },
+      {
+        "family": "Miami/SingleFamily/hp",
+        "target": "B",
+        "value": -0.6248598294643104
+      },
+      {
+        "family": "Miami/SingleFamily/elecres",
+        "target": "B",
+        "value": -0.2219989510124246
+      },
+      {
+        "family": "Miami/SingleFamily/oilfurnace",
+        "target": "B",
+        "value": -0.33861840007412825
+      },
+      {
+        "family": "Phoenix/MediumOffice/official_native",
+        "target": "B",
+        "value": -1.7305707267627672
+      },
+      {
+        "family": "Phoenix/SmallOffice/official_native",
+        "target": "B",
+        "value": -1.5619985294585181
+      },
+      {
+        "family": "Phoenix/SingleFamily/gasfurnace",
+        "target": "B",
+        "value": 0.29506020376261266
+      },
+      {
+        "family": "Phoenix/SingleFamily/hp",
+        "target": "B",
+        "value": -0.30995548127943195
+      },
+      {
+        "family": "Phoenix/SingleFamily/elecres",
+        "target": "B",
+        "value": 1.2240748130821926
+      },
+      {
+        "family": "Phoenix/SingleFamily/oilfurnace",
+        "target": "B",
+        "value": 0.8714514828058159
+      },
+      {
+        "family": "Baltimore/MediumOffice/official_native",
+        "target": "B",
+        "value": 3.5344856206199413
+      },
+      {
+        "family": "Baltimore/SmallOffice/official_native",
+        "target": "B",
+        "value": 0.14700990903584102
+      },
+      {
+        "family": "Baltimore/SingleFamily/gasfurnace",
+        "target": "B",
+        "value": 1.1377467448193932
+      },
+      {
+        "family": "Baltimore/SingleFamily/hp",
+        "target": "B",
+        "value": 1.1617788615557294
+      },
+      {
+        "family": "Baltimore/SingleFamily/elecres",
+        "target": "B",
+        "value": 4.1951467201179895
+      },
+      {
+        "family": "Baltimore/SingleFamily/oilfurnace",
+        "target": "B",
+        "value": 2.2755808959550934
+      },
+      {
+        "family": "Seattle/MediumOffice/official_native",
+        "target": "B",
+        "value": 1.9789515024414992
+      },
+      {
+        "family": "Seattle/SmallOffice/official_native",
+        "target": "B",
+        "value": -0.07805414094850016
+      },
+      {
+        "family": "Seattle/SingleFamily/gasfurnace",
+        "target": "B",
+        "value": 1.2793353765467124
+      },
+      {
+        "family": "Seattle/SingleFamily/hp",
+        "target": "B",
+        "value": 0.6628445926021358
+      },
+      {
+        "family": "Seattle/SingleFamily/elecres",
+        "target": "B",
+        "value": 3.0282670856275695
+      },
+      {
+        "family": "Seattle/SingleFamily/oilfurnace",
+        "target": "B",
+        "value": 2.683525243432083
+      },
+      {
+        "family": "Denver/MediumOffice/official_native",
+        "target": "B",
+        "value": 1.3456992856334595
+      },
+      {
+        "family": "Denver/SmallOffice/official_native",
+        "target": "B",
+        "value": -0.2500490036146452
+      },
+      {
+        "family": "Denver/SingleFamily/gasfurnace",
+        "target": "B",
+        "value": 0.6876122030899259
+      },
+      {
+        "family": "Denver/SingleFamily/hp",
+        "target": "B",
+        "value": 1.6839828540284543
+      },
+      {
+        "family": "Denver/SingleFamily/elecres",
+        "target": "B",
+        "value": 3.9530602740281426
+      },
+      {
+        "family": "Denver/SingleFamily/oilfurnace",
+        "target": "B",
+        "value": 2.9039907615740153
+      },
+      {
+        "family": "Chicago/MediumOffice/official_native",
+        "target": "B",
+        "value": 5.404148501845432
+      },
+      {
+        "family": "Chicago/SmallOffice/official_native",
+        "target": "B",
+        "value": 0.9109977097280929
+      },
+      {
+        "family": "Chicago/SingleFamily/gasfurnace",
+        "target": "B",
+        "value": 1.076910879807857
+      },
+      {
+        "family": "Chicago/SingleFamily/hp",
+        "target": "B",
+        "value": 1.857065080131994
+      },
+      {
+        "family": "Chicago/SingleFamily/elecres",
+        "target": "B",
+        "value": 4.6043463113428205
+      },
+      {
+        "family": "Chicago/SingleFamily/oilfurnace",
+        "target": "B",
+        "value": 2.521926274406952
+      },
+      {
+        "family": "Minneapolis/MediumOffice/official_native",
+        "target": "B",
+        "value": 5.551773466983516
+      },
+      {
+        "family": "Minneapolis/SmallOffice/official_native",
+        "target": "B",
+        "value": 1.2396101521089748
+      },
+      {
+        "family": "Minneapolis/SingleFamily/gasfurnace",
+        "target": "B",
+        "value": 1.002262359081827
+      },
+      {
+        "family": "Minneapolis/SingleFamily/hp",
+        "target": "B",
+        "value": 1.9698982643621714
+      },
+      {
+        "family": "Minneapolis/SingleFamily/elecres",
+        "target": "B",
+        "value": 4.362465977572714
+      },
+      {
+        "family": "Minneapolis/SingleFamily/oilfurnace",
+        "target": "B",
+        "value": 2.967321914419207
+      },
+      {
+        "family": "InternationalFalls/MediumOffice/official_native",
+        "target": "B",
+        "value": 6.338773536259309
+      },
+      {
+        "family": "InternationalFalls/SmallOffice/official_native",
+        "target": "B",
+        "value": 1.0788312358959407
+      },
+      {
+        "family": "InternationalFalls/SingleFamily/gasfurnace",
+        "target": "B",
+        "value": 1.4793555658055124
+      },
+      {
+        "family": "InternationalFalls/SingleFamily/hp",
+        "target": "B",
+        "value": 3.655028113274908
+      },
+      {
+        "family": "InternationalFalls/SingleFamily/elecres",
+        "target": "B",
+        "value": 5.8517111823397165
+      },
+      {
+        "family": "InternationalFalls/SingleFamily/oilfurnace",
+        "target": "B",
+        "value": 4.031956625967397
+      },
+      {
+        "family": "Fairbanks/MediumOffice/official_native",
+        "target": "B",
+        "value": 12.237623999991493
+      },
+      {
+        "family": "Fairbanks/SmallOffice/official_native",
+        "target": "B",
+        "value": 0.9340463747572461
+      },
+      {
+        "family": "Fairbanks/SingleFamily/gasfurnace",
+        "target": "B",
+        "value": 2.2662467955530796
+      },
+      {
+        "family": "Fairbanks/SingleFamily/hp",
+        "target": "B",
+        "value": 10.505271934199907
+      },
+      {
+        "family": "Fairbanks/SingleFamily/elecres",
+        "target": "B",
+        "value": 13.17399345543708
+      },
+      {
+        "family": "Fairbanks/SingleFamily/oilfurnace",
+        "target": "B",
+        "value": 5.777424785624766
+      },
+      {
+        "family": "Miami/MediumOffice/official_native",
+        "target": "C",
+        "value": -3.4597167560285946
+      },
+      {
+        "family": "Miami/SmallOffice/official_native",
+        "target": "C",
+        "value": -1.0885929054569854
+      },
+      {
+        "family": "Miami/SingleFamily/gasfurnace",
+        "target": "C",
+        "value": -1.1811551559563065
+      },
+      {
+        "family": "Miami/SingleFamily/hp",
+        "target": "C",
+        "value": -1.3740037398092255
+      },
+      {
+        "family": "Miami/SingleFamily/elecres",
+        "target": "C",
+        "value": -1.0379040196052687
+      },
+      {
+        "family": "Miami/SingleFamily/oilfurnace",
+        "target": "C",
+        "value": -1.1315383941582002
+      },
+      {
+        "family": "Phoenix/MediumOffice/official_native",
+        "target": "C",
+        "value": -3.9668716930616195
+      },
+      {
+        "family": "Phoenix/SmallOffice/official_native",
+        "target": "C",
+        "value": -1.4031223987505461
+      },
+      {
+        "family": "Phoenix/SingleFamily/gasfurnace",
+        "target": "C",
+        "value": -0.9790450484654406
+      },
+      {
+        "family": "Phoenix/SingleFamily/hp",
+        "target": "C",
+        "value": -1.4731499826738486
+      },
+      {
+        "family": "Phoenix/SingleFamily/elecres",
+        "target": "C",
+        "value": -0.2542476213577229
+      },
+      {
+        "family": "Phoenix/SingleFamily/oilfurnace",
+        "target": "C",
+        "value": -0.5297838304037364
+      },
+      {
+        "family": "Baltimore/MediumOffice/official_native",
+        "target": "C",
+        "value": 1.6900555519716058
+      },
+      {
+        "family": "Baltimore/SmallOffice/official_native",
+        "target": "C",
+        "value": -0.015323904644875916
+      },
+      {
+        "family": "Baltimore/SingleFamily/gasfurnace",
+        "target": "C",
+        "value": 0.1539104441127378
+      },
+      {
+        "family": "Baltimore/SingleFamily/hp",
+        "target": "C",
+        "value": 0.17780787715266136
+      },
+      {
+        "family": "Baltimore/SingleFamily/elecres",
+        "target": "C",
+        "value": 2.0628455636732013
+      },
+      {
+        "family": "Baltimore/SingleFamily/oilfurnace",
+        "target": "C",
+        "value": 0.8916567614648748
+      },
+      {
+        "family": "Seattle/MediumOffice/official_native",
+        "target": "C",
+        "value": 1.4850655863497209
+      },
+      {
+        "family": "Seattle/SmallOffice/official_native",
+        "target": "C",
+        "value": 0.02282750865587275
+      },
+      {
+        "family": "Seattle/SingleFamily/gasfurnace",
+        "target": "C",
+        "value": 0.6529758954353266
+      },
+      {
+        "family": "Seattle/SingleFamily/hp",
+        "target": "C",
+        "value": 0.2929079230663277
+      },
+      {
+        "family": "Seattle/SingleFamily/elecres",
+        "target": "C",
+        "value": 1.732676949969155
+      },
+      {
+        "family": "Seattle/SingleFamily/oilfurnace",
+        "target": "C",
+        "value": 1.5221210037573987
+      },
+      {
+        "family": "Denver/MediumOffice/official_native",
+        "target": "C",
+        "value": 1.1931680867808954
+      },
+      {
+        "family": "Denver/SmallOffice/official_native",
+        "target": "C",
+        "value": 0.29870108351612096
+      },
+      {
+        "family": "Denver/SingleFamily/gasfurnace",
+        "target": "C",
+        "value": 0.05723756679902199
+      },
+      {
+        "family": "Denver/SingleFamily/hp",
+        "target": "C",
+        "value": 0.6651482112903866
+      },
+      {
+        "family": "Denver/SingleFamily/elecres",
+        "target": "C",
+        "value": 2.1325978708431723
+      },
+      {
+        "family": "Denver/SingleFamily/oilfurnace",
+        "target": "C",
+        "value": 1.467868839566358
+      },
+      {
+        "family": "Chicago/MediumOffice/official_native",
+        "target": "C",
+        "value": 2.7070205704547767
+      },
+      {
+        "family": "Chicago/SmallOffice/official_native",
+        "target": "C",
+        "value": 0.4330735661346294
+      },
+      {
+        "family": "Chicago/SingleFamily/gasfurnace",
+        "target": "C",
+        "value": 0.2618098054793819
+      },
+      {
+        "family": "Chicago/SingleFamily/hp",
+        "target": "C",
+        "value": 0.6902327390944101
+      },
+      {
+        "family": "Chicago/SingleFamily/elecres",
+        "target": "C",
+        "value": 2.2767969561337162
+      },
+      {
+        "family": "Chicago/SingleFamily/oilfurnace",
+        "target": "C",
+        "value": 1.088695782500969
+      },
+      {
+        "family": "Minneapolis/MediumOffice/official_native",
+        "target": "C",
+        "value": 3.185153423089855
+      },
+      {
+        "family": "Minneapolis/SmallOffice/official_native",
+        "target": "C",
+        "value": 0.6333567593326472
+      },
+      {
+        "family": "Minneapolis/SingleFamily/gasfurnace",
+        "target": "C",
+        "value": 0.31485229964408057
+      },
+      {
+        "family": "Minneapolis/SingleFamily/hp",
+        "target": "C",
+        "value": 0.8541000134578537
+      },
+      {
+        "family": "Minneapolis/SingleFamily/elecres",
+        "target": "C",
+        "value": 2.2449480869757132
+      },
+      {
+        "family": "Minneapolis/SingleFamily/oilfurnace",
+        "target": "C",
+        "value": 1.4446241100367485
+      },
+      {
+        "family": "InternationalFalls/MediumOffice/official_native",
+        "target": "C",
+        "value": 3.75301472261637
+      },
+      {
+        "family": "InternationalFalls/SmallOffice/official_native",
+        "target": "C",
+        "value": 0.6813905554806031
+      },
+      {
+        "family": "InternationalFalls/SingleFamily/gasfurnace",
+        "target": "C",
+        "value": 0.6813559002011015
+      },
+      {
+        "family": "InternationalFalls/SingleFamily/hp",
+        "target": "C",
+        "value": 1.9300347235233108
+      },
+      {
+        "family": "InternationalFalls/SingleFamily/elecres",
+        "target": "C",
+        "value": 3.204024193223296
+      },
+      {
+        "family": "InternationalFalls/SingleFamily/oilfurnace",
+        "target": "C",
+        "value": 2.1549662990393412
+      },
+      {
+        "family": "Fairbanks/MediumOffice/official_native",
+        "target": "C",
+        "value": 8.411383788766607
+      },
+      {
+        "family": "Fairbanks/SmallOffice/official_native",
+        "target": "C",
+        "value": 0.9989344214698147
+      },
+      {
+        "family": "Fairbanks/SingleFamily/gasfurnace",
+        "target": "C",
+        "value": 1.4253658978348691
+      },
+      {
+        "family": "Fairbanks/SingleFamily/hp",
+        "target": "C",
+        "value": 7.184231197647729
+      },
+      {
+        "family": "Fairbanks/SingleFamily/elecres",
+        "target": "C",
+        "value": 8.592603832183405
+      },
+      {
+        "family": "Fairbanks/SingleFamily/oilfurnace",
+        "target": "C",
+        "value": 3.7297656552311897
+      }
+    ]
+  },
+  "figure3": {
+    "balance": [
+      {
+        "family": "Miami/MediumOffice/official_native",
+        "target": "B",
+        "x": 2.073978228708567,
+        "y": 0.0682905057815053
+      },
+      {
+        "family": "Phoenix/MediumOffice/official_native",
+        "target": "B",
+        "x": 2.23251378320456,
+        "y": 0.5019430564417428
+      },
+      {
+        "family": "Baltimore/MediumOffice/official_native",
+        "target": "B",
+        "x": 2.423299773568975,
+        "y": 5.957785394188937
+      },
+      {
+        "family": "Seattle/MediumOffice/official_native",
+        "target": "B",
+        "x": 1.5890347045641136,
+        "y": 3.5679862070056045
+      },
+      {
+        "family": "Denver/MediumOffice/official_native",
+        "target": "B",
+        "x": 2.8468739637306006,
+        "y": 4.192573249364057
+      },
+      {
+        "family": "Chicago/MediumOffice/official_native",
+        "target": "B",
+        "x": 2.0958859361711255,
+        "y": 7.50003443801656
+      },
+      {
+        "family": "Minneapolis/MediumOffice/official_native",
+        "target": "B",
+        "x": 1.8181692456665748,
+        "y": 7.369942712650114
+      },
+      {
+        "family": "InternationalFalls/MediumOffice/official_native",
+        "target": "B",
+        "x": 1.8500702946567242,
+        "y": 8.188843830916033
+      },
+      {
+        "family": "Fairbanks/MediumOffice/official_native",
+        "target": "B",
+        "x": 2.8797245911034666,
+        "y": 15.117348591094963
+      },
+      {
+        "family": "Miami/SmallOffice/official_native",
+        "target": "B",
+        "x": 0.6598404310502721,
+        "y": -0.0015046072691162892
+      },
+      {
+        "family": "Phoenix/SmallOffice/official_native",
+        "target": "B",
+        "x": 1.5801188788173537,
+        "y": 0.018120349358833575
+      },
+      {
+        "family": "Baltimore/SmallOffice/official_native",
+        "target": "B",
+        "x": 1.3591762918657757,
+        "y": 1.5061862009016207
+      },
+      {
+        "family": "Seattle/SmallOffice/official_native",
+        "target": "B",
+        "x": 1.0052251836218247,
+        "y": 0.9271710426733215
+      },
+      {
+        "family": "Denver/SmallOffice/official_native",
+        "target": "B",
+        "x": 1.4753066995144262,
+        "y": 1.2252576958997774
+      },
+      {
+        "family": "Chicago/SmallOffice/official_native",
+        "target": "B",
+        "x": 1.0819625990060115,
+        "y": 1.9929603087341055
+      },
+      {
+        "family": "Minneapolis/SmallOffice/official_native",
+        "target": "B",
+        "x": 0.9384272963298231,
+        "y": 2.1780374484388068
+      },
+      {
+        "family": "InternationalFalls/SmallOffice/official_native",
+        "target": "B",
+        "x": 1.028178780877222,
+        "y": 2.107010016773168
+      },
+      {
+        "family": "Fairbanks/SmallOffice/official_native",
+        "target": "B",
+        "x": 2.1531970164647873,
+        "y": 3.087243391222042
+      },
+      {
+        "family": "Miami/SingleFamily/gasfurnace",
+        "target": "B",
+        "x": 0.74954886566718,
+        "y": 0.3421650711762201
+      },
+      {
+        "family": "Phoenix/SingleFamily/gasfurnace",
+        "target": "B",
+        "x": 0.8172364625926052,
+        "y": 1.1122966663552094
+      },
+      {
+        "family": "Baltimore/SingleFamily/gasfurnace",
+        "target": "B",
+        "x": 0.723907211958113,
+        "y": 1.8616539567774826
+      },
+      {
+        "family": "Seattle/SingleFamily/gasfurnace",
+        "target": "B",
+        "x": 0.5073607535764576,
+        "y": 1.7866961301231727
+      },
+      {
+        "family": "Denver/SingleFamily/gasfurnace",
+        "target": "B",
+        "x": 0.6607557499290098,
+        "y": 1.3483679530189385
+      },
+      {
+        "family": "Chicago/SingleFamily/gasfurnace",
+        "target": "B",
+        "x": 0.5378189339252057,
+        "y": 1.6147298137330535
+      },
+      {
+        "family": "Minneapolis/SingleFamily/gasfurnace",
+        "target": "B",
+        "x": 0.4898173681197566,
+        "y": 1.4920797272015849
+      },
+      {
+        "family": "InternationalFalls/SingleFamily/gasfurnace",
+        "target": "B",
+        "x": 0.47355915960555833,
+        "y": 1.9529147254110697
+      },
+      {
+        "family": "Fairbanks/SingleFamily/gasfurnace",
+        "target": "B",
+        "x": 0.9175948516880517,
+        "y": 3.1838416472410924
+      },
+      {
+        "family": "Miami/SingleFamily/hp",
+        "target": "B",
+        "x": 0.7570515119473807,
+        "y": 0.13219168248306037
+      },
+      {
+        "family": "Phoenix/SingleFamily/hp",
+        "target": "B",
+        "x": 0.8519877316965369,
+        "y": 0.5420322504171153
+      },
+      {
+        "family": "Baltimore/SingleFamily/hp",
+        "target": "B",
+        "x": 0.5866160803884641,
+        "y": 1.7483949419442035
+      },
+      {
+        "family": "Seattle/SingleFamily/hp",
+        "target": "B",
+        "x": 0.44858590622360395,
+        "y": 1.1114304988257473
+      },
+      {
+        "family": "Denver/SingleFamily/hp",
+        "target": "B",
+        "x": 0.5100047019919061,
+        "y": 2.193987556020367
+      },
+      {
+        "family": "Chicago/SingleFamily/hp",
+        "target": "B",
+        "x": 0.3907544225291645,
+        "y": 2.247819502661153
+      },
+      {
+        "family": "Minneapolis/SingleFamily/hp",
+        "target": "B",
+        "x": 0.30688980764749724,
+        "y": 2.2767880720096674
+      },
+      {
+        "family": "InternationalFalls/SingleFamily/hp",
+        "target": "B",
+        "x": 0.2578603961609466,
+        "y": 3.912888509435893
+      },
+      {
+        "family": "Fairbanks/SingleFamily/hp",
+        "target": "B",
+        "x": 0.3834150129289694,
+        "y": 10.88868694712889
+      },
+      {
+        "family": "Miami/SingleFamily/elecres",
+        "target": "B",
+        "x": 0.7312390605100852,
+        "y": 0.5092401094976585
+      },
+      {
+        "family": "Phoenix/SingleFamily/elecres",
+        "target": "B",
+        "x": 0.7815095191185079,
+        "y": 2.0055843322006925
+      },
+      {
+        "family": "Baltimore/SingleFamily/elecres",
+        "target": "B",
+        "x": 0.6946739234175139,
+        "y": 4.8898206435354865
+      },
+      {
+        "family": "Seattle/SingleFamily/elecres",
+        "target": "B",
+        "x": 0.4442669304251056,
+        "y": 3.4725340160526987
+      },
+      {
+        "family": "Denver/SingleFamily/elecres",
+        "target": "B",
+        "x": 0.6162048026406718,
+        "y": 4.56926507666882
+      },
+      {
+        "family": "Chicago/SingleFamily/elecres",
+        "target": "B",
+        "x": 0.5033256306096325,
+        "y": 5.107671941952422
+      },
+      {
+        "family": "Minneapolis/SingleFamily/elecres",
+        "target": "B",
+        "x": 0.4654536683018613,
+        "y": 4.82791964587457
+      },
+      {
+        "family": "InternationalFalls/SingleFamily/elecres",
+        "target": "B",
+        "x": 0.44558026263223083,
+        "y": 6.297291444971927
+      },
+      {
+        "family": "Fairbanks/SingleFamily/elecres",
+        "target": "B",
+        "x": 0.8384554093231832,
+        "y": 14.012448864760248
+      },
+      {
+        "family": "Miami/SingleFamily/oilfurnace",
+        "target": "B",
+        "x": 0.7312390605155,
+        "y": 0.3926206604413628
+      },
+      {
+        "family": "Phoenix/SingleFamily/oilfurnace",
+        "target": "B",
+        "x": 0.7815095190365937,
+        "y": 1.6529610018423981
+      },
+      {
+        "family": "Baltimore/SingleFamily/oilfurnace",
+        "target": "B",
+        "x": 0.6946739235065476,
+        "y": 2.970254819461641
+      },
+      {
+        "family": "Seattle/SingleFamily/oilfurnace",
+        "target": "B",
+        "x": 0.4442669304861101,
+        "y": 3.127792173918199
+      },
+      {
+        "family": "Denver/SingleFamily/oilfurnace",
+        "target": "B",
+        "x": 0.6162048026630684,
+        "y": 3.5201955642370963
+      },
+      {
+        "family": "Chicago/SingleFamily/oilfurnace",
+        "target": "B",
+        "x": 0.5033256305926507,
+        "y": 3.0252519049995885
+      },
+      {
+        "family": "Minneapolis/SingleFamily/oilfurnace",
+        "target": "B",
+        "x": 0.46545366844455577,
+        "y": 3.432775582863747
+      },
+      {
+        "family": "InternationalFalls/SingleFamily/oilfurnace",
+        "target": "B",
+        "x": 0.445580262613625,
+        "y": 4.477536888581033
+      },
+      {
+        "family": "Fairbanks/SingleFamily/oilfurnace",
+        "target": "B",
+        "x": 0.8384554092221593,
+        "y": 6.615880194846905
+      },
+      {
+        "family": "Miami/MediumOffice/official_native",
+        "target": "C",
+        "x": 3.5609977226433855,
+        "y": 0.10128096661482705
+      },
+      {
+        "family": "Phoenix/MediumOffice/official_native",
+        "target": "C",
+        "x": 4.5761283998939195,
+        "y": 0.6092567068322777
+      },
+      {
+        "family": "Baltimore/MediumOffice/official_native",
+        "target": "C",
+        "x": 2.5616235368278817,
+        "y": 4.251679088799491
+      },
+      {
+        "family": "Seattle/MediumOffice/official_native",
+        "target": "C",
+        "x": 1.0364552667892237,
+        "y": 2.5215208531389517
+      },
+      {
+        "family": "Denver/MediumOffice/official_native",
+        "target": "C",
+        "x": 2.521935554401863,
+        "y": 3.7151036411827554
+      },
+      {
+        "family": "Chicago/MediumOffice/official_native",
+        "target": "C",
+        "x": 2.0406790045692165,
+        "y": 4.747699575023979
+      },
+      {
+        "family": "Minneapolis/MediumOffice/official_native",
+        "target": "C",
+        "x": 1.6709994670746349,
+        "y": 4.8561528901645
+      },
+      {
+        "family": "InternationalFalls/MediumOffice/official_native",
+        "target": "C",
+        "x": 1.2304661239478987,
+        "y": 4.983480846564281
+      },
+      {
+        "family": "Fairbanks/MediumOffice/official_native",
+        "target": "C",
+        "x": 1.6269554422386108,
+        "y": 10.038339231005194
+      },
+      {
+        "family": "Miami/SmallOffice/official_native",
+        "target": "C",
+        "x": 1.0893010686541145,
+        "y": 0.0007081631971225024
+      },
+      {
+        "family": "Phoenix/SmallOffice/official_native",
+        "target": "C",
+        "x": 1.4967958751969739,
+        "y": 0.09367347644642023
+      },
+      {
+        "family": "Baltimore/SmallOffice/official_native",
+        "target": "C",
+        "x": 0.8783734167961899,
+        "y": 0.8630495121513169
+      },
+      {
+        "family": "Seattle/SmallOffice/official_native",
+        "target": "C",
+        "x": 0.5043277396223047,
+        "y": 0.5271552482781738
+      },
+      {
+        "family": "Denver/SmallOffice/official_native",
+        "target": "C",
+        "x": 0.706487120387568,
+        "y": 1.0051882039036888
+      },
+      {
+        "family": "Chicago/SmallOffice/official_native",
+        "target": "C",
+        "x": 0.5717061513725591,
+        "y": 1.0047797175071915
+      },
+      {
+        "family": "Minneapolis/SmallOffice/official_native",
+        "target": "C",
+        "x": 0.4560355684569298,
+        "y": 1.0893923277895814
+      },
+      {
+        "family": "InternationalFalls/SmallOffice/official_native",
+        "target": "C",
+        "x": 0.3070626368445983,
+        "y": 0.9884531923252068
+      },
+      {
+        "family": "Fairbanks/SmallOffice/official_native",
+        "target": "C",
+        "x": 0.5296566757176193,
+        "y": 1.5285910971874361
+      },
+      {
+        "family": "Miami/SingleFamily/gasfurnace",
+        "target": "C",
+        "x": 1.4557988287483372,
+        "y": 0.2746436727920269
+      },
+      {
+        "family": "Phoenix/SingleFamily/gasfurnace",
+        "target": "C",
+        "x": 1.8488908433870739,
+        "y": 0.8698457949216132
+      },
+      {
+        "family": "Baltimore/SingleFamily/gasfurnace",
+        "target": "C",
+        "x": 0.9745521345004997,
+        "y": 1.128462578613241
+      },
+      {
+        "family": "Seattle/SingleFamily/gasfurnace",
+        "target": "C",
+        "x": 0.4344174481756705,
+        "y": 1.087393343610992
+      },
+      {
+        "family": "Denver/SingleFamily/gasfurnace",
+        "target": "C",
+        "x": 0.7948288725044428,
+        "y": 0.8520664393034738
+      },
+      {
+        "family": "Chicago/SingleFamily/gasfurnace",
+        "target": "C",
+        "x": 0.6576166495624709,
+        "y": 0.9194264550418527
+      },
+      {
+        "family": "Minneapolis/SingleFamily/gasfurnace",
+        "target": "C",
+        "x": 0.5398917359638434,
+        "y": 0.8547440356079035
+      },
+      {
+        "family": "InternationalFalls/SingleFamily/gasfurnace",
+        "target": "C",
+        "x": 0.44471199646196197,
+        "y": 1.1260678966630673
+      },
+      {
+        "family": "Fairbanks/SingleFamily/gasfurnace",
+        "target": "C",
+        "x": 0.6711122906351094,
+        "y": 2.096478188469999
+      },
+      {
+        "family": "Miami/SingleFamily/hp",
+        "target": "C",
+        "x": 1.4803979428660312,
+        "y": 0.10639420305679777
+      },
+      {
+        "family": "Phoenix/SingleFamily/hp",
+        "target": "C",
+        "x": 1.8973327882549942,
+        "y": 0.4241828055811393
+      },
+      {
+        "family": "Baltimore/SingleFamily/hp",
+        "target": "C",
+        "x": 0.882976863903275,
+        "y": 1.0607847410559297
+      },
+      {
+        "family": "Seattle/SingleFamily/hp",
+        "target": "C",
+        "x": 0.3891172387053116,
+        "y": 0.6820251617716443
+      },
+      {
+        "family": "Denver/SingleFamily/hp",
+        "target": "C",
+        "x": 0.6910686565435032,
+        "y": 1.3562168678338822
+      },
+      {
+        "family": "Chicago/SingleFamily/hp",
+        "target": "C",
+        "x": 0.5945289370743849,
+        "y": 1.2847616761688032
+      },
+      {
+        "family": "Minneapolis/SingleFamily/hp",
+        "target": "C",
+        "x": 0.4333039769757908,
+        "y": 1.2874039904336525
+      },
+      {
+        "family": "InternationalFalls/SingleFamily/hp",
+        "target": "C",
+        "x": 0.3226919136994084,
+        "y": 2.2527266372227572
+      },
+      {
+        "family": "Fairbanks/SingleFamily/hp",
+        "target": "C",
+        "x": 0.34243899906773567,
+        "y": 7.52667019671555
+      },
+      {
+        "family": "Miami/SingleFamily/elecres",
+        "target": "C",
+        "x": 1.4467756061851158,
+        "y": 0.4088715865798517
+      },
+      {
+        "family": "Phoenix/SingleFamily/elecres",
+        "target": "C",
+        "x": 1.8213903942709588,
+        "y": 1.5671427729132381
+      },
+      {
+        "family": "Baltimore/SingleFamily/elecres",
+        "target": "C",
+        "x": 0.9205911654939195,
+        "y": 2.9834367291671353
+      },
+      {
+        "family": "Seattle/SingleFamily/elecres",
+        "target": "C",
+        "x": 0.3882222154294153,
+        "y": 2.1208991653985807
+      },
+      {
+        "family": "Denver/SingleFamily/elecres",
+        "target": "C",
+        "x": 0.7626565541330546,
+        "y": 2.8952544249762173
+      },
+      {
+        "family": "Chicago/SingleFamily/elecres",
+        "target": "C",
+        "x": 0.6373274389104182,
+        "y": 2.9141243950441305
+      },
+      {
+        "family": "Minneapolis/SingleFamily/elecres",
+        "target": "C",
+        "x": 0.5245865820666168,
+        "y": 2.769534669042344
+      },
+      {
+        "family": "InternationalFalls/SingleFamily/elecres",
+        "target": "C",
+        "x": 0.4262584089698453,
+        "y": 3.630282602193125
+      },
+      {
+        "family": "Fairbanks/SingleFamily/elecres",
+        "target": "C",
+        "x": 0.6198126708551539,
+        "y": 9.212416503038506
+      },
+      {
+        "family": "Miami/SingleFamily/oilfurnace",
+        "target": "C",
+        "x": 1.44677560617127,
+        "y": 0.3152372120130692
+      },
+      {
+        "family": "Phoenix/SingleFamily/oilfurnace",
+        "target": "C",
+        "x": 1.8213903942923348,
+        "y": 1.2916065638885887
+      },
+      {
+        "family": "Baltimore/SingleFamily/oilfurnace",
+        "target": "C",
+        "x": 0.9205911651334873,
+        "y": 1.8122479265983606
+      },
+      {
+        "family": "Seattle/SingleFamily/oilfurnace",
+        "target": "C",
+        "x": 0.38822221544815017,
+        "y": 1.910343219205556
+      },
+      {
+        "family": "Denver/SingleFamily/oilfurnace",
+        "target": "C",
+        "x": 0.7626565541121268,
+        "y": 2.230525393678485
+      },
+      {
+        "family": "Chicago/SingleFamily/oilfurnace",
+        "target": "C",
+        "x": 0.6373274389697666,
+        "y": 1.7260232214707314
+      },
+      {
+        "family": "Minneapolis/SingleFamily/oilfurnace",
+        "target": "C",
+        "x": 0.5245865820965844,
+        "y": 1.969210692133339
+      },
+      {
+        "family": "InternationalFalls/SingleFamily/oilfurnace",
+        "target": "C",
+        "x": 0.4262584088490105,
+        "y": 2.581224707888354
+      },
+      {
+        "family": "Fairbanks/SingleFamily/oilfurnace",
+        "target": "C",
+        "x": 0.6198126711132542,
+        "y": 4.349578326344462
+      }
+    ],
+    "matched": [
+      {
+        "family": "Miami/MediumOffice/official_native",
+        "B": -2.005687722927034,
+        "C": -3.4597167560285946
+      },
+      {
+        "family": "Phoenix/MediumOffice/official_native",
+        "B": -1.7305707267627672,
+        "C": -3.9668716930616195
+      },
+      {
+        "family": "Baltimore/MediumOffice/official_native",
+        "B": 3.5344856206199413,
+        "C": 1.6900555519716058
+      },
+      {
+        "family": "Seattle/MediumOffice/official_native",
+        "B": 1.9789515024414992,
+        "C": 1.4850655863497209
+      },
+      {
+        "family": "Denver/MediumOffice/official_native",
+        "B": 1.3456992856334595,
+        "C": 1.1931680867808954
+      },
+      {
+        "family": "Chicago/MediumOffice/official_native",
+        "B": 5.404148501845432,
+        "C": 2.7070205704547767
+      },
+      {
+        "family": "Minneapolis/MediumOffice/official_native",
+        "B": 5.551773466983516,
+        "C": 3.185153423089855
+      },
+      {
+        "family": "InternationalFalls/MediumOffice/official_native",
+        "B": 6.338773536259309,
+        "C": 3.75301472261637
+      },
+      {
+        "family": "Fairbanks/MediumOffice/official_native",
+        "B": 12.237623999991493,
+        "C": 8.411383788766607
+      },
+      {
+        "family": "Miami/SmallOffice/official_native",
+        "B": -0.6613450383193843,
+        "C": -1.0885929054569854
+      },
+      {
+        "family": "Phoenix/SmallOffice/official_native",
+        "B": -1.5619985294585181,
+        "C": -1.4031223987505461
+      },
+      {
+        "family": "Baltimore/SmallOffice/official_native",
+        "B": 0.14700990903584102,
+        "C": -0.015323904644875916
+      },
+      {
+        "family": "Seattle/SmallOffice/official_native",
+        "B": -0.07805414094850016,
+        "C": 0.02282750865587275
+      },
+      {
+        "family": "Denver/SmallOffice/official_native",
+        "B": -0.2500490036146452,
+        "C": 0.29870108351612096
+      },
+      {
+        "family": "Chicago/SmallOffice/official_native",
+        "B": 0.9109977097280929,
+        "C": 0.4330735661346294
+      },
+      {
+        "family": "Minneapolis/SmallOffice/official_native",
+        "B": 1.2396101521089748,
+        "C": 0.6333567593326472
+      },
+      {
+        "family": "InternationalFalls/SmallOffice/official_native",
+        "B": 1.0788312358959407,
+        "C": 0.6813905554806031
+      },
+      {
+        "family": "Fairbanks/SmallOffice/official_native",
+        "B": 0.9340463747572461,
+        "C": 0.9989344214698147
+      },
+      {
+        "family": "Miami/SingleFamily/gasfurnace",
+        "B": -0.4073837944909567,
+        "C": -1.1811551559563065
+      },
+      {
+        "family": "Phoenix/SingleFamily/gasfurnace",
+        "B": 0.29506020376261266,
+        "C": -0.9790450484654406
+      },
+      {
+        "family": "Baltimore/SingleFamily/gasfurnace",
+        "B": 1.1377467448193932,
+        "C": 0.1539104441127378
+      },
+      {
+        "family": "Seattle/SingleFamily/gasfurnace",
+        "B": 1.2793353765467124,
+        "C": 0.6529758954353266
+      },
+      {
+        "family": "Denver/SingleFamily/gasfurnace",
+        "B": 0.6876122030899259,
+        "C": 0.05723756679902199
+      },
+      {
+        "family": "Chicago/SingleFamily/gasfurnace",
+        "B": 1.076910879807857,
+        "C": 0.2618098054793819
+      },
+      {
+        "family": "Minneapolis/SingleFamily/gasfurnace",
+        "B": 1.002262359081827,
+        "C": 0.31485229964408057
+      },
+      {
+        "family": "InternationalFalls/SingleFamily/gasfurnace",
+        "B": 1.4793555658055124,
+        "C": 0.6813559002011015
+      },
+      {
+        "family": "Fairbanks/SingleFamily/gasfurnace",
+        "B": 2.2662467955530796,
+        "C": 1.4253658978348691
+      },
+      {
+        "family": "Miami/SingleFamily/hp",
+        "B": -0.6248598294643104,
+        "C": -1.3740037398092255
+      },
+      {
+        "family": "Phoenix/SingleFamily/hp",
+        "B": -0.30995548127943195,
+        "C": -1.4731499826738486
+      },
+      {
+        "family": "Baltimore/SingleFamily/hp",
+        "B": 1.1617788615557294,
+        "C": 0.17780787715266136
+      },
+      {
+        "family": "Seattle/SingleFamily/hp",
+        "B": 0.6628445926021358,
+        "C": 0.2929079230663277
+      },
+      {
+        "family": "Denver/SingleFamily/hp",
+        "B": 1.6839828540284543,
+        "C": 0.6651482112903866
+      },
+      {
+        "family": "Chicago/SingleFamily/hp",
+        "B": 1.857065080131994,
+        "C": 0.6902327390944101
+      },
+      {
+        "family": "Minneapolis/SingleFamily/hp",
+        "B": 1.9698982643621714,
+        "C": 0.8541000134578537
+      },
+      {
+        "family": "InternationalFalls/SingleFamily/hp",
+        "B": 3.655028113274908,
+        "C": 1.9300347235233108
+      },
+      {
+        "family": "Fairbanks/SingleFamily/hp",
+        "B": 10.505271934199907,
+        "C": 7.184231197647729
+      },
+      {
+        "family": "Miami/SingleFamily/elecres",
+        "B": -0.2219989510124246,
+        "C": -1.0379040196052687
+      },
+      {
+        "family": "Phoenix/SingleFamily/elecres",
+        "B": 1.2240748130821926,
+        "C": -0.2542476213577229
+      },
+      {
+        "family": "Baltimore/SingleFamily/elecres",
+        "B": 4.1951467201179895,
+        "C": 2.0628455636732013
+      },
+      {
+        "family": "Seattle/SingleFamily/elecres",
+        "B": 3.0282670856275695,
+        "C": 1.732676949969155
+      },
+      {
+        "family": "Denver/SingleFamily/elecres",
+        "B": 3.9530602740281426,
+        "C": 2.1325978708431723
+      },
+      {
+        "family": "Chicago/SingleFamily/elecres",
+        "B": 4.6043463113428205,
+        "C": 2.2767969561337162
+      },
+      {
+        "family": "Minneapolis/SingleFamily/elecres",
+        "B": 4.362465977572714,
+        "C": 2.2449480869757132
+      },
+      {
+        "family": "InternationalFalls/SingleFamily/elecres",
+        "B": 5.8517111823397165,
+        "C": 3.204024193223296
+      },
+      {
+        "family": "Fairbanks/SingleFamily/elecres",
+        "B": 13.17399345543708,
+        "C": 8.592603832183405
+      },
+      {
+        "family": "Miami/SingleFamily/oilfurnace",
+        "B": -0.33861840007412825,
+        "C": -1.1315383941582002
+      },
+      {
+        "family": "Phoenix/SingleFamily/oilfurnace",
+        "B": 0.8714514828058159,
+        "C": -0.5297838304037364
+      },
+      {
+        "family": "Baltimore/SingleFamily/oilfurnace",
+        "B": 2.2755808959550934,
+        "C": 0.8916567614648748
+      },
+      {
+        "family": "Seattle/SingleFamily/oilfurnace",
+        "B": 2.683525243432083,
+        "C": 1.5221210037573987
+      },
+      {
+        "family": "Denver/SingleFamily/oilfurnace",
+        "B": 2.9039907615740153,
+        "C": 1.467868839566358
+      },
+      {
+        "family": "Chicago/SingleFamily/oilfurnace",
+        "B": 2.521926274406952,
+        "C": 1.088695782500969
+      },
+      {
+        "family": "Minneapolis/SingleFamily/oilfurnace",
+        "B": 2.967321914419207,
+        "C": 1.4446241100367485
+      },
+      {
+        "family": "InternationalFalls/SingleFamily/oilfurnace",
+        "B": 4.031956625967397,
+        "C": 2.1549662990393412
+      },
+      {
+        "family": "Fairbanks/SingleFamily/oilfurnace",
+        "B": 5.777424785624766,
+        "C": 3.7297656552311897
+      }
+    ]
+  },
+  "figure4": {
+    "carrier_balance": [
+      {
+        "family": "Miami/MediumOffice/official_native",
+        "target": "B",
+        "x": 2.0061112810039368,
+        "y": 0.000423558076868165
+      },
+      {
+        "family": "Phoenix/MediumOffice/official_native",
+        "target": "B",
+        "x": 1.7870074702473038,
+        "y": 0.0564367434844983
+      },
+      {
+        "family": "Baltimore/MediumOffice/official_native",
+        "target": "B",
+        "x": -2.9761215029796313,
+        "y": 0.5583641176403352
+      },
+      {
+        "family": "Seattle/MediumOffice/official_native",
+        "target": "B",
+        "x": -1.4888171153446064,
+        "y": 0.49013438709688695
+      },
+      {
+        "family": "Denver/MediumOffice/official_native",
+        "target": "B",
+        "x": -0.8424567170942319,
+        "y": 0.5032425685392217
+      },
+      {
+        "family": "Chicago/MediumOffice/official_native",
+        "target": "B",
+        "x": -4.734429078592967,
+        "y": 0.6697194232524555
+      },
+      {
+        "family": "Minneapolis/MediumOffice/official_native",
+        "target": "B",
+        "x": -4.893734536345069,
+        "y": 0.6580389306384646
+      },
+      {
+        "family": "InternationalFalls/MediumOffice/official_native",
+        "target": "B",
+        "x": -5.694967320042586,
+        "y": 0.6438062162167237
+      },
+      {
+        "family": "Fairbanks/MediumOffice/official_native",
+        "target": "B",
+        "x": -11.273076111340174,
+        "y": 0.9645478886513034
+      },
+      {
+        "family": "Miami/MediumOffice/official_native",
+        "target": "C",
+        "x": 3.4600809870004228,
+        "y": 0.0003642309718448116
+      },
+      {
+        "family": "Phoenix/MediumOffice/official_native",
+        "target": "C",
+        "x": 4.018896988608264,
+        "y": 0.05202529554663693
+      },
+      {
+        "family": "Baltimore/MediumOffice/official_native",
+        "target": "C",
+        "x": -1.3600090004051306,
+        "y": 0.33004655156647944
+      },
+      {
+        "family": "Seattle/MediumOffice/official_native",
+        "target": "C",
+        "x": -1.2067433263039415,
+        "y": 0.27832226004578364
+      },
+      {
+        "family": "Denver/MediumOffice/official_native",
+        "target": "C",
+        "x": -0.9031851096591007,
+        "y": 0.2899829771217884
+      },
+      {
+        "family": "Chicago/MediumOffice/official_native",
+        "target": "C",
+        "x": -2.322485737688153,
+        "y": 0.38453483276661343
+      },
+      {
+        "family": "Minneapolis/MediumOffice/official_native",
+        "target": "C",
+        "x": -2.8141512805725264,
+        "y": 0.3710021425173381
+      },
+      {
+        "family": "InternationalFalls/MediumOffice/official_native",
+        "target": "C",
+        "x": -3.414674900736792,
+        "y": 0.3383398218795776
+      },
+      {
+        "family": "Fairbanks/MediumOffice/official_native",
+        "target": "C",
+        "x": -7.84358352885563,
+        "y": 0.5678002599109782
+      },
+      {
+        "family": "Miami/SmallOffice/official_native",
+        "target": "B",
+        "x": 0.6613450383193832,
+        "y": 0.0
+      },
+      {
+        "family": "Phoenix/SmallOffice/official_native",
+        "target": "B",
+        "x": 1.5618256914802497,
+        "y": -0.00017283797826763453
+      },
+      {
+        "family": "Baltimore/SmallOffice/official_native",
+        "target": "B",
+        "x": -0.1100192659045652,
+        "y": 0.03699064313128105
+      },
+      {
+        "family": "Seattle/SmallOffice/official_native",
+        "target": "B",
+        "x": 0.08176147596763213,
+        "y": 0.0037073350191308254
+      },
+      {
+        "family": "Denver/SmallOffice/official_native",
+        "target": "B",
+        "x": 0.2552770305594331,
+        "y": 0.005228026944783609
+      },
+      {
+        "family": "Chicago/SmallOffice/official_native",
+        "target": "B",
+        "x": -0.7563392105664553,
+        "y": 0.15465849916163693
+      },
+      {
+        "family": "Minneapolis/SmallOffice/official_native",
+        "target": "B",
+        "x": -0.9174467619376822,
+        "y": 0.3221633901713005
+      },
+      {
+        "family": "InternationalFalls/SmallOffice/official_native",
+        "target": "B",
+        "x": -0.353694483020884,
+        "y": 0.7251367528750627
+      },
+      {
+        "family": "Fairbanks/SmallOffice/official_native",
+        "target": "B",
+        "x": 0.6587262549862573,
+        "y": 1.5927726297435125
+      },
+      {
+        "family": "Miami/SmallOffice/official_native",
+        "target": "C",
+        "x": 1.0885929054569874,
+        "y": 0.0
+      },
+      {
+        "family": "Phoenix/SmallOffice/official_native",
+        "target": "C",
+        "x": 1.4034965144825047,
+        "y": 0.0003741157319558101
+      },
+      {
+        "family": "Baltimore/SmallOffice/official_native",
+        "target": "C",
+        "x": 0.12063448688218674,
+        "y": 0.10531058223731538
+      },
+      {
+        "family": "Seattle/SmallOffice/official_native",
+        "target": "C",
+        "x": 0.0018615480231336736,
+        "y": 0.024689056679003635
+      },
+      {
+        "family": "Denver/SmallOffice/official_native",
+        "target": "C",
+        "x": -0.1871256718234558,
+        "y": 0.11157541169266683
+      },
+      {
+        "family": "Chicago/SmallOffice/official_native",
+        "target": "C",
+        "x": -0.23325717923400688,
+        "y": 0.19981638690062545
+      },
+      {
+        "family": "Minneapolis/SmallOffice/official_native",
+        "target": "C",
+        "x": -0.3711281984259916,
+        "y": 0.2622285609066584
+      },
+      {
+        "family": "InternationalFalls/SmallOffice/official_native",
+        "target": "C",
+        "x": -0.29044890382052396,
+        "y": 0.3909416516600855
+      },
+      {
+        "family": "Fairbanks/SmallOffice/official_native",
+        "target": "C",
+        "x": -0.28060018324247377,
+        "y": 0.7183342382273455
+      },
+      {
+        "family": "Miami/SingleFamily/gasfurnace",
+        "target": "B",
+        "x": 0.7495488656671783,
+        "y": 0.34216507117622014
+      },
+      {
+        "family": "Phoenix/SingleFamily/gasfurnace",
+        "target": "B",
+        "x": 0.8172364625926093,
+        "y": 1.112296666355211
+      },
+      {
+        "family": "Baltimore/SingleFamily/gasfurnace",
+        "target": "B",
+        "x": 0.7239072119581119,
+        "y": 1.86165395677748
+      },
+      {
+        "family": "Seattle/SingleFamily/gasfurnace",
+        "target": "B",
+        "x": 0.5073607535764586,
+        "y": 1.7866961301231745
+      },
+      {
+        "family": "Denver/SingleFamily/gasfurnace",
+        "target": "B",
+        "x": 0.6607557499290091,
+        "y": 1.348367953018938
+      },
+      {
+        "family": "Chicago/SingleFamily/gasfurnace",
+        "target": "B",
+        "x": 0.5378189339252053,
+        "y": 1.6147298137330512
+      },
+      {
+        "family": "Minneapolis/SingleFamily/gasfurnace",
+        "target": "B",
+        "x": 0.4898173681197546,
+        "y": 1.4920797272015782
+      },
+      {
+        "family": "InternationalFalls/SingleFamily/gasfurnace",
+        "target": "B",
+        "x": 0.47355915960555817,
+        "y": 1.9529147254110673
+      },
+      {
+        "family": "Fairbanks/SingleFamily/gasfurnace",
+        "target": "B",
+        "x": 0.9175948516880515,
+        "y": 3.1838416472410973
+      },
+      {
+        "family": "Miami/SingleFamily/gasfurnace",
+        "target": "C",
+        "x": 1.455798828748343,
+        "y": 0.274643672792027
+      },
+      {
+        "family": "Phoenix/SingleFamily/gasfurnace",
+        "target": "C",
+        "x": 1.8488908433870779,
+        "y": 0.8698457949216135
+      },
+      {
+        "family": "Baltimore/SingleFamily/gasfurnace",
+        "target": "C",
+        "x": 0.9745521345005007,
+        "y": 1.128462578613235
+      },
+      {
+        "family": "Seattle/SingleFamily/gasfurnace",
+        "target": "C",
+        "x": 0.43441744817567096,
+        "y": 1.0873933436109968
+      },
+      {
+        "family": "Denver/SingleFamily/gasfurnace",
+        "target": "C",
+        "x": 0.7948288725044443,
+        "y": 0.8520664393034744
+      },
+      {
+        "family": "Chicago/SingleFamily/gasfurnace",
+        "target": "C",
+        "x": 0.6576166495624751,
+        "y": 0.9194264550418549
+      },
+      {
+        "family": "Minneapolis/SingleFamily/gasfurnace",
+        "target": "C",
+        "x": 0.5398917359638404,
+        "y": 0.854744035607903
+      },
+      {
+        "family": "InternationalFalls/SingleFamily/gasfurnace",
+        "target": "C",
+        "x": 0.44471199646196,
+        "y": 1.1260678966630597
+      },
+      {
+        "family": "Fairbanks/SingleFamily/gasfurnace",
+        "target": "C",
+        "x": 0.6711122906351106,
+        "y": 2.096478188469999
+      },
+      {
+        "family": "Miami/SingleFamily/hp",
+        "target": "B",
+        "x": 0.6248598294643128,
+        "y": 0.0
+      },
+      {
+        "family": "Phoenix/SingleFamily/hp",
+        "target": "B",
+        "x": 0.30995548127942857,
+        "y": 0.0
+      },
+      {
+        "family": "Baltimore/SingleFamily/hp",
+        "target": "B",
+        "x": -1.1617788615557385,
+        "y": 0.0
+      },
+      {
+        "family": "Seattle/SingleFamily/hp",
+        "target": "B",
+        "x": -0.6628445926021419,
+        "y": 0.0
+      },
+      {
+        "family": "Denver/SingleFamily/hp",
+        "target": "B",
+        "x": -1.683982854028454,
+        "y": 0.0
+      },
+      {
+        "family": "Chicago/SingleFamily/hp",
+        "target": "B",
+        "x": -1.8570650801319808,
+        "y": 0.0
+      },
+      {
+        "family": "Minneapolis/SingleFamily/hp",
+        "target": "B",
+        "x": -1.9698982643621772,
+        "y": 0.0
+      },
+      {
+        "family": "InternationalFalls/SingleFamily/hp",
+        "target": "B",
+        "x": -3.655028113274944,
+        "y": 0.0
+      },
+      {
+        "family": "Fairbanks/SingleFamily/hp",
+        "target": "B",
+        "x": -10.50527193419997,
+        "y": 0.0
+      },
+      {
+        "family": "Miami/SingleFamily/hp",
+        "target": "C",
+        "x": 1.3740037398092337,
+        "y": 0.0
+      },
+      {
+        "family": "Phoenix/SingleFamily/hp",
+        "target": "C",
+        "x": 1.473149982673857,
+        "y": 0.0
+      },
+      {
+        "family": "Baltimore/SingleFamily/hp",
+        "target": "C",
+        "x": -0.17780787715265978,
+        "y": 0.0
+      },
+      {
+        "family": "Seattle/SingleFamily/hp",
+        "target": "C",
+        "x": -0.2929079230663298,
+        "y": 0.0
+      },
+      {
+        "family": "Denver/SingleFamily/hp",
+        "target": "C",
+        "x": -0.6651482112903808,
+        "y": 0.0
+      },
+      {
+        "family": "Chicago/SingleFamily/hp",
+        "target": "C",
+        "x": -0.6902327390944172,
+        "y": 0.0
+      },
+      {
+        "family": "Minneapolis/SingleFamily/hp",
+        "target": "C",
+        "x": -0.8541000134578602,
+        "y": 0.0
+      },
+      {
+        "family": "InternationalFalls/SingleFamily/hp",
+        "target": "C",
+        "x": -1.930034723523329,
+        "y": 0.0
+      },
+      {
+        "family": "Fairbanks/SingleFamily/hp",
+        "target": "C",
+        "x": -7.184231197647806,
+        "y": 0.0
+      },
+      {
+        "family": "Miami/SingleFamily/elecres",
+        "target": "B",
+        "x": 0.22199895101242234,
+        "y": 0.0
+      },
+      {
+        "family": "Phoenix/SingleFamily/elecres",
+        "target": "B",
+        "x": -1.224074813082186,
+        "y": 0.0
+      },
+      {
+        "family": "Baltimore/SingleFamily/elecres",
+        "target": "B",
+        "x": -4.195146720117958,
+        "y": 0.0
+      },
+      {
+        "family": "Seattle/SingleFamily/elecres",
+        "target": "B",
+        "x": -3.0282670856275877,
+        "y": 0.0
+      },
+      {
+        "family": "Denver/SingleFamily/elecres",
+        "target": "B",
+        "x": -3.9530602740281506,
+        "y": 0.0
+      },
+      {
+        "family": "Chicago/SingleFamily/elecres",
+        "target": "B",
+        "x": -4.6043463113427725,
+        "y": 0.0
+      },
+      {
+        "family": "Minneapolis/SingleFamily/elecres",
+        "target": "B",
+        "x": -4.362465977572727,
+        "y": 0.0
+      },
+      {
+        "family": "InternationalFalls/SingleFamily/elecres",
+        "target": "B",
+        "x": -5.851711182339694,
+        "y": 0.0
+      },
+      {
+        "family": "Fairbanks/SingleFamily/elecres",
+        "target": "B",
+        "x": -13.173993455437115,
+        "y": 0.0
+      },
+      {
+        "family": "Miami/SingleFamily/elecres",
+        "target": "C",
+        "x": 1.037904019605267,
+        "y": 0.0
+      },
+      {
+        "family": "Phoenix/SingleFamily/elecres",
+        "target": "C",
+        "x": 0.2542476213577127,
+        "y": 0.0
+      },
+      {
+        "family": "Baltimore/SingleFamily/elecres",
+        "target": "C",
+        "x": -2.062845563673203,
+        "y": 0.0
+      },
+      {
+        "family": "Seattle/SingleFamily/elecres",
+        "target": "C",
+        "x": -1.732676949969165,
+        "y": 0.0
+      },
+      {
+        "family": "Denver/SingleFamily/elecres",
+        "target": "C",
+        "x": -2.1325978708431683,
+        "y": 0.0
+      },
+      {
+        "family": "Chicago/SingleFamily/elecres",
+        "target": "C",
+        "x": -2.2767969561337096,
+        "y": 0.0
+      },
+      {
+        "family": "Minneapolis/SingleFamily/elecres",
+        "target": "C",
+        "x": -2.2449480869757363,
+        "y": 0.0
+      },
+      {
+        "family": "InternationalFalls/SingleFamily/elecres",
+        "target": "C",
+        "x": -3.204024193223254,
+        "y": 0.0
+      },
+      {
+        "family": "Fairbanks/SingleFamily/elecres",
+        "target": "C",
+        "x": -8.59260383218338,
+        "y": 0.0
+      },
+      {
+        "family": "Miami/SingleFamily/oilfurnace",
+        "target": "B",
+        "x": 0.7312390605154961,
+        "y": 0.39262066044136323
+      },
+      {
+        "family": "Phoenix/SingleFamily/oilfurnace",
+        "target": "B",
+        "x": 0.7815095190365993,
+        "y": 1.6529610018423988
+      },
+      {
+        "family": "Baltimore/SingleFamily/oilfurnace",
+        "target": "B",
+        "x": 0.6946739235065471,
+        "y": 2.9702548194616396
+      },
+      {
+        "family": "Seattle/SingleFamily/oilfurnace",
+        "target": "B",
+        "x": 0.44426693048611143,
+        "y": 3.1277921739181864
+      },
+      {
+        "family": "Denver/SingleFamily/oilfurnace",
+        "target": "B",
+        "x": 0.6162048026630683,
+        "y": 3.5201955642371066
+      },
+      {
+        "family": "Chicago/SingleFamily/oilfurnace",
+        "target": "B",
+        "x": 0.5033256305926512,
+        "y": 3.0252519049995867
+      },
+      {
+        "family": "Minneapolis/SingleFamily/oilfurnace",
+        "target": "B",
+        "x": 0.46545366844455716,
+        "y": 3.432775582863755
+      },
+      {
+        "family": "InternationalFalls/SingleFamily/oilfurnace",
+        "target": "B",
+        "x": 0.4455802626136235,
+        "y": 4.477536888581042
+      },
+      {
+        "family": "Fairbanks/SingleFamily/oilfurnace",
+        "target": "B",
+        "x": 0.838455409222157,
+        "y": 6.615880194846877
+      },
+      {
+        "family": "Miami/SingleFamily/oilfurnace",
+        "target": "C",
+        "x": 1.4467756061712647,
+        "y": 0.3152372120130694
+      },
+      {
+        "family": "Phoenix/SingleFamily/oilfurnace",
+        "target": "C",
+        "x": 1.8213903942923348,
+        "y": 1.2916065638885879
+      },
+      {
+        "family": "Baltimore/SingleFamily/oilfurnace",
+        "target": "C",
+        "x": 0.920591165133487,
+        "y": 1.8122479265983606
+      },
+      {
+        "family": "Seattle/SingleFamily/oilfurnace",
+        "target": "C",
+        "x": 0.38822221544815116,
+        "y": 1.9103432192055518
+      },
+      {
+        "family": "Denver/SingleFamily/oilfurnace",
+        "target": "C",
+        "x": 0.7626565541121255,
+        "y": 2.2305253936784974
+      },
+      {
+        "family": "Chicago/SingleFamily/oilfurnace",
+        "target": "C",
+        "x": 0.6373274389697677,
+        "y": 1.7260232214707263
+      },
+      {
+        "family": "Minneapolis/SingleFamily/oilfurnace",
+        "target": "C",
+        "x": 0.5245865820965853,
+        "y": 1.96921069213336
+      },
+      {
+        "family": "InternationalFalls/SingleFamily/oilfurnace",
+        "target": "C",
+        "x": 0.4262584088490086,
+        "y": 2.5812247078883415
+      },
+      {
+        "family": "Fairbanks/SingleFamily/oilfurnace",
+        "target": "C",
+        "x": 0.6198126711132506,
+        "y": 4.349578326344435
+      }
+    ],
+    "no_finite_price_domain": true,
+    "panel_scales": "individual_equal_xy"
+  },
+  "figure5": {
+    "headroom_thresholds": [
+      0.0,
+      0.02282750865587275,
+      0.05723756679902199,
+      0.14700990903584102,
+      0.1539104441127378,
+      0.17780787715266136,
+      0.2618098054793819,
+      0.2929079230663277,
+      0.29506020376261266,
+      0.29870108351612096,
+      0.31485229964408057,
+      0.4330735661346294,
+      0.6333567593326472,
+      0.6529758954353266,
+      0.6628445926021358,
+      0.6651482112903866,
+      0.6813559002011015,
+      0.6813905554806031,
+      0.6876122030899259,
+      0.6902327390944101,
+      0.8541000134578537,
+      0.8714514828058159,
+      0.8916567614648748,
+      0.9109977097280929,
+      0.9340463747572461,
+      0.9989344214698147,
+      1.002262359081827,
+      1.076910879807857,
+      1.0788312358959407,
+      1.088695782500969,
+      1.1377467448193932,
+      1.1617788615557294,
+      1.1931680867808954,
+      1.2240748130821926,
+      1.2396101521089748,
+      1.2793353765467124,
+      1.3456992856334595,
+      1.4253658978348691,
+      1.4446241100367485,
+      1.467868839566358,
+      1.4793555658055124,
+      1.4850655863497209,
+      1.5221210037573987,
+      1.6839828540284543,
+      1.6900555519716058,
+      1.732676949969155,
+      1.857065080131994,
+      1.9300347235233108,
+      1.9698982643621714,
+      1.9789515024414992,
+      2.0628455636732013,
+      2.1325978708431723,
+      2.1549662990393412,
+      2.2449480869757132,
+      2.2662467955530796,
+      2.2755808959550934,
+      2.2767969561337162,
+      2.521926274406952,
+      2.683525243432083,
+      2.7070205704547767,
+      2.9039907615740153,
+      2.967321914419207,
+      3.0282670856275695,
+      3.185153423089855,
+      3.204024193223296,
+      3.5344856206199413,
+      3.655028113274908,
+      3.7297656552311897,
+      3.75301472261637,
+      3.9530602740281426,
+      4.031956625967397,
+      4.1951467201179895,
+      4.362465977572714,
+      4.6043463113428205,
+      5.404148501845432,
+      5.551773466983516,
+      5.777424785624766,
+      5.8517111823397165,
+      6.338773536259309,
+      7.184231197647729,
+      8.411383788766607,
+      8.592603832183405,
+      10.505271934199907,
+      12.237623999991493,
+      13.17399345543708
+    ],
+    "headroom_counts": [
+      84,
+      83,
+      82,
+      81,
+      80,
+      79,
+      78,
+      77,
+      76,
+      75,
+      74,
+      73,
+      72,
+      71,
+      70,
+      69,
+      68,
+      67,
+      66,
+      65,
+      64,
+      63,
+      62,
+      61,
+      60,
+      59,
+      58,
+      57,
+      56,
+      55,
+      54,
+      53,
+      52,
+      51,
+      50,
+      49,
+      48,
+      47,
+      46,
+      45,
+      44,
+      43,
+      42,
+      41,
+      40,
+      39,
+      38,
+      37,
+      36,
+      35,
+      34,
+      33,
+      32,
+      31,
+      30,
+      29,
+      28,
+      27,
+      26,
+      25,
+      24,
+      23,
+      22,
+      21,
+      20,
+      19,
+      18,
+      17,
+      16,
+      15,
+      14,
+      13,
+      12,
+      11,
+      10,
+      9,
+      8,
+      7,
+      6,
+      5,
+      4,
+      3,
+      2,
+      1,
+      0
+    ],
+    "availability": [
+      {
+        "city": "Denver",
+        "target": "B",
+        "a": 1.0,
+        "positive": 5,
+        "denominator": 6
+      },
+      {
+        "city": "Denver",
+        "target": "B",
+        "a": 0.75,
+        "positive": 5,
+        "denominator": 6
+      },
+      {
+        "city": "Denver",
+        "target": "B",
+        "a": 0.5,
+        "positive": 4,
+        "denominator": 6
+      },
+      {
+        "city": "Denver",
+        "target": "B",
+        "a": 0.25,
+        "positive": 3,
+        "denominator": 6
+      },
+      {
+        "city": "Chicago",
+        "target": "B",
+        "a": 1.0,
+        "positive": 6,
+        "denominator": 6
+      },
+      {
+        "city": "Chicago",
+        "target": "B",
+        "a": 0.75,
+        "positive": 6,
+        "denominator": 6
+      },
+      {
+        "city": "Chicago",
+        "target": "B",
+        "a": 0.5,
+        "positive": 6,
+        "denominator": 6
+      },
+      {
+        "city": "Chicago",
+        "target": "B",
+        "a": 0.25,
+        "positive": 5,
+        "denominator": 6
+      },
+      {
+        "city": "Minneapolis",
+        "target": "B",
+        "a": 1.0,
+        "positive": 6,
+        "denominator": 6
+      },
+      {
+        "city": "Minneapolis",
+        "target": "B",
+        "a": 0.75,
+        "positive": 6,
+        "denominator": 6
+      },
+      {
+        "city": "Minneapolis",
+        "target": "B",
+        "a": 0.5,
+        "positive": 6,
+        "denominator": 6
+      },
+      {
+        "city": "Minneapolis",
+        "target": "B",
+        "a": 0.25,
+        "positive": 5,
+        "denominator": 6
+      },
+      {
+        "city": "InternationalFalls",
+        "target": "B",
+        "a": 1.0,
+        "positive": 6,
+        "denominator": 6
+      },
+      {
+        "city": "InternationalFalls",
+        "target": "B",
+        "a": 0.75,
+        "positive": 6,
+        "denominator": 6
+      },
+      {
+        "city": "InternationalFalls",
+        "target": "B",
+        "a": 0.5,
+        "positive": 6,
+        "denominator": 6
+      },
+      {
+        "city": "InternationalFalls",
+        "target": "B",
+        "a": 0.25,
+        "positive": 5,
+        "denominator": 6
+      },
+      {
+        "city": "Fairbanks",
+        "target": "B",
+        "a": 1.0,
+        "positive": 6,
+        "denominator": 6
+      },
+      {
+        "city": "Fairbanks",
+        "target": "B",
+        "a": 0.75,
+        "positive": 6,
+        "denominator": 6
+      },
+      {
+        "city": "Fairbanks",
+        "target": "B",
+        "a": 0.5,
+        "positive": 6,
+        "denominator": 6
+      },
+      {
+        "city": "Fairbanks",
+        "target": "B",
+        "a": 0.25,
+        "positive": 5,
+        "denominator": 6
+      },
+      {
+        "city": "Denver",
+        "target": "C",
+        "a": 1.0,
+        "positive": 6,
+        "denominator": 6
+      },
+      {
+        "city": "Denver",
+        "target": "C",
+        "a": 0.75,
+        "positive": 5,
+        "denominator": 6
+      },
+      {
+        "city": "Denver",
+        "target": "C",
+        "a": 0.5,
+        "positive": 3,
+        "denominator": 6
+      },
+      {
+        "city": "Denver",
+        "target": "C",
+        "a": 0.25,
+        "positive": 2,
+        "denominator": 6
+      },
+      {
+        "city": "Chicago",
+        "target": "C",
+        "a": 1.0,
+        "positive": 6,
+        "denominator": 6
+      },
+      {
+        "city": "Chicago",
+        "target": "C",
+        "a": 0.75,
+        "positive": 6,
+        "denominator": 6
+      },
+      {
+        "city": "Chicago",
+        "target": "C",
+        "a": 0.5,
+        "positive": 4,
+        "denominator": 6
+      },
+      {
+        "city": "Chicago",
+        "target": "C",
+        "a": 0.25,
+        "positive": 2,
+        "denominator": 6
+      },
+      {
+        "city": "Minneapolis",
+        "target": "C",
+        "a": 1.0,
+        "positive": 6,
+        "denominator": 6
+      },
+      {
+        "city": "Minneapolis",
+        "target": "C",
+        "a": 0.75,
+        "positive": 6,
+        "denominator": 6
+      },
+      {
+        "city": "Minneapolis",
+        "target": "C",
+        "a": 0.5,
+        "positive": 5,
+        "denominator": 6
+      },
+      {
+        "city": "Minneapolis",
+        "target": "C",
+        "a": 0.25,
+        "positive": 3,
+        "denominator": 6
+      },
+      {
+        "city": "InternationalFalls",
+        "target": "C",
+        "a": 1.0,
+        "positive": 6,
+        "denominator": 6
+      },
+      {
+        "city": "InternationalFalls",
+        "target": "C",
+        "a": 0.75,
+        "positive": 6,
+        "denominator": 6
+      },
+      {
+        "city": "InternationalFalls",
+        "target": "C",
+        "a": 0.5,
+        "positive": 6,
+        "denominator": 6
+      },
+      {
+        "city": "InternationalFalls",
+        "target": "C",
+        "a": 0.25,
+        "positive": 6,
+        "denominator": 6
+      },
+      {
+        "city": "Fairbanks",
+        "target": "C",
+        "a": 1.0,
+        "positive": 6,
+        "denominator": 6
+      },
+      {
+        "city": "Fairbanks",
+        "target": "C",
+        "a": 0.75,
+        "positive": 6,
+        "denominator": 6
+      },
+      {
+        "city": "Fairbanks",
+        "target": "C",
+        "a": 0.5,
+        "positive": 6,
+        "denominator": 6
+      },
+      {
+        "city": "Fairbanks",
+        "target": "C",
+        "a": 0.25,
+        "positive": 6,
+        "denominator": 6
+      }
+    ]
+  }
+}
