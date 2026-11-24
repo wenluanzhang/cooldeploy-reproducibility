@@ -1,6 +1,6 @@
 # CoolDeploy R1 numerical reproducibility
 
-This candidate reproduces the revised study's **numerical analysis from frozen
+This repository reproduces the revised study's **numerical analysis from frozen
 processed EnergyPlus outputs**: nine U.S. weather anchors, six native building/HVAC
 configurations, roofs 0/A/B/C, 216 canonical annuals and 108 A-minus-B/C comparisons.
 It also separates the 54 near-sharp B sensitivity years from the controlled optical
@@ -58,8 +58,7 @@ outputs are not bundled. Public source identifiers and hashes are supplied;
 independent annual runs require obtaining those inputs and rebuilding the model
 boundary and equipment/control policy. No physics is rerun by these commands.
 
-Release status: local candidate awaiting author manifest review and publication
-approval. Code/documentation use MIT; project-generated processed data use CC BY
+Release status: public numerical reproducibility package. Code/documentation use MIT; project-generated processed data use CC BY
 4.0, as selected by the author. See LICENSE, LICENSE_CODE and LICENSE_DATA.
 The previous public snapshot is superseded in full;
 its historical calculations are not dependencies of this workflow.
