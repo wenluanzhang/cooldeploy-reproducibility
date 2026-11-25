@@ -1,4 +1,4 @@
-# CoolDeploy R1 numerical reproducibility
+# CoolDeploy numerical reproducibility
 
 This repository reproduces the revised study's **numerical analysis from frozen
 processed EnergyPlus outputs**: nine U.S. weather anchors, six native building/HVAC
@@ -52,11 +52,11 @@ and adverse native Cooling contributions in all 108 canonical comparisons.
 See [RESULTS_MAP](docs/RESULTS_MAP.md), [DATA_DICTIONARY](docs/DATA_DICTIONARY.md)
 and [PROVENANCE](docs/PROVENANCE.md) for keys, units and limits.
 
-This repository does **not** reproduce EnergyPlus from scratch. The executable,
-full IDF/EPW environment, third-party prototype/weather content and raw native
-outputs are not bundled. Public source identifiers and hashes are supplied;
-independent annual runs require obtaining those inputs and rebuilding the model
-boundary and equipment/control policy. No physics is rerun by these commands.
+The numerical commands use the frozen processed outputs. A separate
+[simulation workflow](simulation/README.md) checks the exact final inputs and
+extracts and compares native annual output for users with authorized IDFs and
+weather files. The case manifest covers the main and separate sensitivity
+populations. Independent acquisition of final IDFs remains pending.
 
 Release status: public numerical reproducibility package. Code/documentation use MIT; project-generated processed data use CC BY
 4.0, as selected by the author. See LICENSE, LICENSE_CODE and LICENSE_DATA.
