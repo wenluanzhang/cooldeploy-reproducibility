@@ -54,9 +54,10 @@ and [PROVENANCE](docs/PROVENANCE.md) for keys, units and limits.
 
 The numerical commands use the frozen processed outputs. A separate
 [simulation workflow](simulation/README.md) checks the exact final inputs and
-extracts and compares native annual output for users with authorized IDFs and
-weather files. The case manifest covers the main and separate sensitivity
-populations. Independent acquisition of final IDFs remains pending.
+compares native annual output to the frozen public data. Readers can obtain
+the pinned original prototypes and weather files from the provider links.
+Preparing an accepted simulation still requires its exact modified IDF.
+Independent acquisition of those final files remains pending.
 
 Release status: public numerical reproducibility package. Code/documentation use MIT; project-generated processed data use CC BY
 4.0, as selected by the author. See LICENSE, LICENSE_CODE and LICENSE_DATA.

@@ -9,15 +9,20 @@
 | EnergyPlus | U.S. DOE and EnergyPlus contributors. [26.1.0 release](https://github.com/NatLabRockies/EnergyPlus/releases/tag/v26.1.0) and [release license](https://github.com/NatLabRockies/EnergyPlus/blob/v26.1.0/LICENSE.txt) | Install separately. The release license permits redistribution subject to its attribution, notices, disclaimer and name-use conditions. The candidate contains no simulator files. |
 | Project scripts and processed data | CoolDeploy authors | The repository's MIT license applies to project code and documentation and CC BY 4.0 applies to project-generated processed data. |
 
-The [DOE web policy](https://www.energy.gov/web-policies) distinguishes government
-information from contributed or licensed third-party material. The retained
-DOE/PNNL prototype archives identify the source and contributor context. The
-review did not establish file-specific clearance for republishing the modified
-IDFs or all nine exact EPWs. Third-party inputs remain external to the project
-licenses. This candidate includes only case identities, provenance hashes and
-project workflow code. It carries neither prototype/weather bytes, dependency
-binaries nor accepted native output files. EPW source notes and the input
-manifest identify the source data without implying a redistribution license.
+DOE's web policy separates government information from contributed or licensed
+material. DOE's prototype page describes opening and modifying the residential
+IDFs locally. The exact archives provide DOE/PNNL attribution. PNNL's web notice
+covers documents served from its website for non-commercial scientific and
+educational use. File-specific permission to redistribute the final modified
+IDFs remains unresolved.
+[DOE web policy](https://www.energy.gov/web-policies)
+[DOE prototype page](https://www.energycodes.gov/prototype-building-models)
+[PNNL notices](https://www.pnnl.gov/important-notices)
+[ASHRAE permissions](https://www.ashrae.org/permissions)
+
+The project licenses cover project code, documentation and generated data.
+The candidate includes the case identifiers, provenance hashes and workflow
+code. Obtain original prototypes and EPWs from the verified links below.
 
 ## Verified weather downloads
 

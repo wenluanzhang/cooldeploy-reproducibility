@@ -79,11 +79,21 @@ directory. A run receipt records the pinned identity, subprocess result and
 native output hashes. Failure or timeout leaves the partial run directory for
 inspection. Select a new path for any separately authorized attempt.
 
-If you have the accepted eplusout.sql, eplusout.err and eplusout.end,
-extract --accepted uses the manifest's SQL and ERR hashes. Adding
-compare --accepted-native to the comparison verifies the hourly clock, roof
-faces, per-meter monthly values, warning signatures and available broad-B
-roof-temperature observations against that retained output.
+The compare command above uses the extracted JSON and this checkout's
+frozen processed data and case manifest. Run it any time you have an
+extracted result. It needs neither the simulator installation nor the
+archived accepted output. On the retained Seattle Case B rerun, this
+public-reference comparison passed 99 checks covering the case ID,
+annual hours, roof area, occupied heating and cooling unmet hours,
+monthly carrier energy and cost, annual HVAC bill and end-use costs.
+
+For a separate check against the original run, extract --accepted uses the
+accepted eplusout.sql, eplusout.err and eplusout.end. The optional
+compare --accepted-native argument adds checks against those files for the
+hourly clock, roof faces, per-meter monthly values, warning signatures and
+available broad-B roof-temperature observations. This earlier archive-assisted
+Seattle comparison passed 355 checks. The extra checks require the original
+native files.
 
 ## Extraction and comparison
 
