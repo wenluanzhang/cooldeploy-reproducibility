@@ -118,3 +118,16 @@ temperature state profile, with the first predecessor missing. These are not
 direct solar or thermal actuator readbacks. A complete annual run does not
 establish equal indoor service, an annual numerical-error bound, or field
 validation.
+
+## Validation coverage
+
+On Windows x86-64 with EnergyPlus build 6f2e40d102, all 378 retained
+IDF and weather pairs passed input checks. Extraction and comparison
+from the corresponding retained native SQL and ERR records passed for
+216 main, 54 narrow-B and 108 optical annuals. The only new annual
+execution in this validation was Seattle Medium Office Case B. It
+reproduced the frozen monthly carrier totals, end-use costs, occupied
+service hours, native warning signatures and preceding-temperature
+state evidence. That execution completed 8,760 hours with 97 warnings
+and zero severe errors. Its accepted numerical-review qualification
+still applies. Public acquisition of the exact final IDFs is pending.

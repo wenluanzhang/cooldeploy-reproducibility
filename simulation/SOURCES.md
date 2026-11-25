@@ -18,3 +18,42 @@ licenses. This candidate includes only case identities, provenance hashes and
 project workflow code. It carries neither prototype/weather bytes, dependency
 binaries nor accepted native output files. EPW source notes and the input
 manifest identify the source data without implying a redistribution license.
+
+## Verified weather downloads
+
+Downloads from these links matched the exact EPW SHA-256 in the case
+manifest on 2026-11-25. Download the EPW corresponding to the case and
+run the input check before use.
+
+| EPW | Provider |
+| --- | --- |
+| USA_AK_Fairbanks.Intl_.AP_.702610_TMY3.epw | [DOE Building Energy Codes Program](https://www.energycodes.gov/sites/default/files/2021-05/USA_AK_Fairbanks.Intl_.AP_.702610_TMY3.epw) |
+| USA_AZ_Phoenix-Sky.Harbor.Intl_.AP_.722780_TMY3.epw | [DOE Building Energy Codes Program](https://www.energycodes.gov/sites/default/files/2022-09/USA_AZ_Phoenix-Sky.Harbor.Intl_.AP_.722780_TMY3.epw) |
+| USA_CO_Denver-Aurora-Buckley.AFB_.724695_TMY3.epw | [DOE Building Energy Codes Program](https://www.energycodes.gov/sites/default/files/2021-05/USA_CO_Denver-Aurora-Buckley.AFB_.724695_TMY3.epw) |
+| USA_FL_Miami.Intl_.AP_.722020_TMY3.epw | [DOE Building Energy Codes Program](https://www.energycodes.gov/sites/default/files/2021-05/USA_FL_Miami.Intl_.AP_.722020_TMY3.epw) |
+| USA_IL_Chicago-OHare.Intl_.AP_.725300_TMY3.epw | [DOE Building Energy Codes Program](https://www.energycodes.gov/sites/default/files/2022-09/USA_IL_Chicago-OHare.Intl_.AP_.725300_TMY3.epw) |
+| USA_MD_Baltimore-Washington.Intl_.AP_.724060_TMY3.epw | [DOE Building Energy Codes Program](https://www.energycodes.gov/sites/default/files/2022-09/USA_MD_Baltimore-Washington.Intl_.AP_.724060_TMY3.epw) |
+| USA_MN_International.Falls_.Intl_.AP_.727470_TMY3.epw | [DOE Building Energy Codes Program](https://www.energycodes.gov/sites/default/files/2021-05/USA_MN_International.Falls_.Intl_.AP_.727470_TMY3.epw) |
+| USA_MN_Minneapolis-St.Paul.Intl.AP.726580_TMY3.epw | [EnergyPlus weather catalog](https://energyplus-weather.s3.amazonaws.com/north_and_central_america_wmo_region_4/USA/MN/USA_MN_Minneapolis-St.Paul.Intl.AP.726580_TMY3/USA_MN_Minneapolis-St.Paul.Intl.AP.726580_TMY3.epw) |
+| USA_WA_Seattle-Tacoma.Intl_.AP_.727930_TMY3.epw | [DOE Building Energy Codes Program](https://www.energycodes.gov/sites/default/files/2021-05/USA_WA_Seattle-Tacoma.Intl_.AP_.727930_TMY3.epw) |
+
+## Verified prototype downloads
+
+All 54 pinned original prototype members matched byte for byte in the DOE
+archives below on 2026-11-25. Use the prototype basename and SHA-256 in
+the case manifest to select an archive member. The final IDF has its own
+independent hash and requires the authorized final-input archive.
+
+| DOE archive | Matched members |
+| --- | ---: |
+| [ASHRAE901_OfficeMedium_STD2022.zip](https://www.energycodes.gov/sites/default/files/2023-10/ASHRAE901_OfficeMedium_STD2022.zip) | 9 |
+| [ASHRAE901_OfficeSmall_STD2022.zip](https://www.energycodes.gov/sites/default/files/2023-10/ASHRAE901_OfficeSmall_STD2022.zip) | 9 |
+| [resstd_CZ1A_IECC_2021.zip](https://www.energycodes.gov/sites/default/files/2025-01/resstd_CZ1A_IECC_2021.zip) | 4 |
+| [resstd_CZ2B_IECC_2021.zip](https://www.energycodes.gov/sites/default/files/2025-01/resstd_CZ2B_IECC_2021.zip) | 4 |
+| [resstd_CZ4A_IECC_2021.zip](https://www.energycodes.gov/sites/default/files/2025-01/resstd_CZ4A_IECC_2021.zip) | 4 |
+| [resstd_CZ4C_IECC_2021.zip](https://www.energycodes.gov/sites/default/files/2025-01/resstd_CZ4C_IECC_2021.zip) | 4 |
+| [resstd_CZ5A_IECC_2021.zip](https://www.energycodes.gov/sites/default/files/2025-01/resstd_CZ5A_IECC_2021.zip) | 4 |
+| [resstd_CZ5B_IECC_2021.zip](https://www.energycodes.gov/sites/default/files/2025-01/resstd_CZ5B_IECC_2021.zip) | 4 |
+| [resstd_CZ6A_IECC_2021.zip](https://www.energycodes.gov/sites/default/files/2025-01/resstd_CZ6A_IECC_2021.zip) | 4 |
+| [resstd_CZ7_IECC_2021.zip](https://www.energycodes.gov/sites/default/files/2025-01/resstd_CZ7_IECC_2021.zip) | 4 |
+| [resstd_CZ8_IECC_2021.zip](https://www.energycodes.gov/sites/default/files/2025-01/resstd_CZ8_IECC_2021.zip) | 4 |
