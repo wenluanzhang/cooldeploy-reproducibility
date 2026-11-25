@@ -1,65 +1,59 @@
-# CoolDeploy numerical reproducibility
+# CoolDeploy R2 reproducibility
 
-This repository reproduces the revised study's **numerical analysis from frozen
-processed EnergyPlus outputs**: nine U.S. weather anchors, six native building/HVAC
-configurations, roofs 0/A/B/C, 216 canonical annuals and 108 A-minus-B/C comparisons.
-It also separates the 54 near-sharp B sensitivity years from the controlled optical
-study (18 families, six states, 108 extra annuals and 108 optical contrasts).
+Choose the workflow that matches what you want to reproduce.
 
-Python 3.10+ is required. Validation, table/figure-data regeneration and tests use
-only the Python standard library. Start from this directory:
+## A. Reproduce the numerical analysis
 
-```sh
+Start from the bundled, frozen processed EnergyPlus outputs. Python 3.10+
+and its standard library are sufficient.
+
+~~~sh
 python src/reproduce.py validate
 python src/reproduce.py tables --output generated
 python -m unittest discover -s tests -v
-# Optional numerical plots; Python 3.11+ and the pinned dependency:
-python -m pip install -r requirements.txt
-python src/reproduce.py figures --output generated
-```
+~~~
 
-`tables` is the single entry point for all derived numerical tables and figure
-backing data. It checks frozen file hashes before computing, writes only under the
-selected output directory, and never modifies `data/processed/`. `validate` is
-read-only. `figures` draws numerical plots from those tables, not pixel-identical
-publication artwork. The publication's approved figures are not rebuilt in place.
+Validation checks 22 frozen inputs and the numerical calculations. The tables
+command writes 19 CSVs with results and figure backing data, plus
+validation.json. See the [results map](docs/RESULTS_MAP.md) for the manuscript
+and supplementary tables and figures that each file supports.
 
-## Physical evidence and accounting assumptions
+For optional numerical reference plots, use Python 3.11+ and install the pinned
+dependency with python -m pip install -r requirements.txt. Then run
+python src/reproduce.py figures --output generated. The plots illustrate the
+numerical results. Publication artwork is outside the plotting workflow.
 
-The physical inputs hold installed nominal equipment and prescribed controls
-fixed within each family across roofs. Non-HP families use the original0 fixed
-implementation; residential HP families use original0-derived numeric child
-capacities/flows, with parent initialization source-inferred rather than directly
-observed. Fixed inputs do not establish equal delivered service. The canonical
-216 annuals retain **93 NUMERICAL_REVIEW_REQUIRED** records; unmet heating/cooling
-hours and the absence of an annual numerical-error bound remain explicit.
+## B. Explore the EnergyPlus workflow
 
-Costs use native purchased Electricity, NaturalGas and FuelOilNo2 in seven disjoint
-end uses (Heating, Cooling, Fans, Pumps, HeatRejection, Humidification,
-HeatRecovery). SWH is physically removed from these runs; lighting/plug bills are
-excluded. No delivered-load-to-purchased-energy efficiency substitution is used.
-Positive signed A-minus-target values mean lower target bills. Normalization uses
-physical treated roof area. Twenty years, 5% real discount, stationary annual
-savings and frozen carrier prices are accounting assumptions, not measured
-product lifetime, complete ownership cost or environmental LCA. The winter mask
-is hypothetical common-difference accounting, not a physical snow simulation.
+Start with the [model preparation guide](simulation/MODEL_PREPARATION.md) and
+[pinned source downloads](simulation/SOURCES.md). The [simulation guide](simulation/README.md)
+covers installing EnergyPlus 26.1.0, verifying exact inputs, running one annual,
+extracting native outputs and comparing with the frozen public references.
 
-## Scope of reproduction
+The [case manifest](simulation/cases.csv) identifies 216 main simulations, 54
+narrow-B sensitivity simulations and 108 additional optical simulations. The
+36 original A/C annuals used as optical context are already part of the main
+study. The strict runner requires a final modified IDF that matches the
+manifest SHA-256. Obtain the original prototypes and weather from their
+providers. Access to exact final modified IDFs requires a separate authorized
+route or independently prepared files that pass the hash check. The model guide
+documents the accepted configuration and the limits of preparation from the
+public inputs.
 
-The numerical closure includes 43/54 positive B and 41/54 positive C comparisons,
-B cheaper than C in 50/54, signed medians 1.4125274257 and 0.6858116473 USD/m² roof,
-and adverse native Cooling contributions in all 108 canonical comparisons.
-See [RESULTS_MAP](docs/RESULTS_MAP.md), [DATA_DICTIONARY](docs/DATA_DICTIONARY.md)
-and [PROVENANCE](docs/PROVENANCE.md) for keys, units and limits.
+## Validation and interpretation
 
-The numerical commands use the frozen processed outputs. A separate
-[simulation workflow](simulation/README.md) checks the exact final inputs and
-compares native annual output to the frozen public data. Readers can obtain
-the pinned original prototypes and weather files from the provider links.
-Preparing an accepted simulation still requires its exact modified IDF.
-Independent acquisition of those final files remains pending.
+The [validation report](docs/REPRODUCIBILITY_REPORT.md) distinguishes frozen-data
+reproduction, local offline verification of 378 accepted cases and one prior
+Seattle Medium Office Case B rerun. Fixed installed equipment leaves room
+for different indoor conditions across roofs. The data retain separate occupied
+heating and cooling unmet hours and 93 numerical-review flags in the main
+study. An annual numerical-error bound and field validation were outside the
+verification.
 
-Release status: public numerical reproducibility package. Code/documentation use MIT; project-generated processed data use CC BY
-4.0, as selected by the author. See LICENSE, LICENSE_CODE and LICENSE_DATA.
-The previous public snapshot is superseded in full;
-its historical calculations are not dependencies of this workflow.
+The analysis uses native purchased space-conditioning energy and physical
+treated roof area. The 20-year period, 5% real discount rate, stationary annual
+savings and prices, and winter-retention mask are accounting assumptions.
+See the [data dictionary](docs/DATA_DICTIONARY.md) and [provenance notes](docs/PROVENANCE.md).
+
+Project code and documentation use the [MIT license](LICENSE_CODE).
+Project-generated processed data use [CC BY 4.0](LICENSE_DATA).

@@ -1,11 +1,13 @@
 # Run an accepted EnergyPlus annual
 
-This extension validates and runs a user-supplied, byte-identical final IDF and
-weather file. The [case manifest](cases.csv) gives 216 main, 54 narrow-B and
-108 new optical annual identities. The 36 contextual optical A/C annuals use the
-same canonical main IDs. Final IDF acquisition is pending for every case.
-The runnable workflow requires the exact input bytes from an authorized
-archive. An upstream prototype cannot serve as the final IDF.
+Use this workflow with a byte-identical final modified IDF and weather file.
+The [case manifest](cases.csv) identifies 216 main, 54 narrow-B and 108
+additional optical annuals. The 36 original optical A/C context annuals
+are canonical main cases. The public files provide the original-source
+download links and the case-specific hash pins. Acquire the exact final IDF
+through an authorized route or independently prepare a file that passes the
+hash check. For the accepted physical inputs and modeling decisions, see the
+[model preparation guide](MODEL_PREPARATION.md).
 
 ## Install and obtain the inputs
 
@@ -29,8 +31,8 @@ $engine = (Get-ChildItem energyplus-install -Recurse -Filter energyplus.exe | Se
 
 Use the [input sources and notices](SOURCES.md) to identify DOE/PNNL prototypes
 and station downloads. The manifest pins station number, EPW basename and hash,
-prototype basename and hash, accepted attempt, elapsed annual clock hours,
-final IDF and input dependencies, native SQL/ERR hashes, area, separate service
+prototype basename and hash, accepted attempt, annual clock hours,
+final IDF SHA-256 and input dependencies, native SQL/ERR hashes, area, separate service
 readouts and the frozen CSV selector. Prototype-to-final-IDF generation is
 unverified in this package. A historical original-0 sizing reference or a
 different run attempt cannot satisfy the hash gate.
@@ -41,17 +43,6 @@ the case manifest values. Preserve raw bytes and line endings. The final IDFs
 contain the accepted controls and output requests. No separate schedule file,
 EMS plugin, macro or model data file was found for these case inputs. A valid
 engine installation supplies its own runtime files.
-
-The accepted SWH-free boundary removes service-water heating. Within a family,
-the 45 non-HP configurations retain the historical roof-0 installed reference.
-Nine residential heat-pump families use fixed original-0-derived numeric child
-capacities and flows. Shared parent initialization is source-inferred, and
-dormant sizing fields may remain. The accepted IDF includes the operative
-equipment inputs, controls, reporting and solver settings. Case B changes
-solar absorptance and thermal emittance with the preceding exterior roof-face
-temperature across 19–27 °C. Case C retains fixed solar reflectance and a
-temperature-dependent thermal response. Narrow B uses 22.99–23.01 °C. The
-optical cases use the specific A/C properties encoded in their accepted IDFs.
 
 ## Check, run, extract and compare one case
 
@@ -131,13 +122,9 @@ validation.
 
 ## Validation coverage
 
-On Windows x86-64 with EnergyPlus build 6f2e40d102, all 378 retained
-IDF and weather pairs passed input checks. Extraction and comparison
-from the corresponding retained native SQL and ERR records passed for
-216 main, 54 narrow-B and 108 optical annuals. The only new annual
-execution in this validation was Seattle Medium Office Case B. It
-reproduced the frozen monthly carrier totals, end-use costs, occupied
-service hours, native warning signatures and preceding-temperature
-state evidence. That execution completed 8,760 hours with 97 warnings
-and zero severe errors. Its accepted numerical-review qualification
-still applies. Public acquisition of the exact final IDFs is pending.
+The [validation report](../docs/REPRODUCIBILITY_REPORT.md) records the local
+input and archived-output checks and the previously demonstrated Seattle
+Medium Office Case B annual. The bundled processed data support downstream
+reproduction and the public-reference comparison for reader-supplied
+extracted results. The repository does not distribute final modified IDFs
+or the native output archive.

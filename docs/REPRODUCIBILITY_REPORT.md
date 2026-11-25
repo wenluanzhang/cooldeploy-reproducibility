@@ -1,7 +1,29 @@
-# R1 reproducibility closure
+# CoolDeploy R2 validation report
 
-Status: numerical checks PASS; local candidate awaiting author manifest/publication
-approval. No EnergyPlus run or raw annual extraction is performed by this release.
+The release provides numerical reproduction from frozen processed data and
+documents the EnergyPlus modeling, execution and extraction workflow. The
+validation used Windows 11 x86-64, Python 3.13.8 and EnergyPlus 26.1.0, build
+6f2e40d102. The numerical commands and tests use Python's standard library.
+
+| Check | Scope and result |
+| --- | --- |
+| Frozen public inputs | 22 manifest entries passed the hash and numerical checks. |
+| Public numerical regeneration | 19 regenerated CSVs and the validation summary matched the accepted public baseline byte for byte. |
+| Automated tests | All 10 passed, including the five original numerical tests and five simulation-workflow tests. |
+| Local exact-input checks | All 378 accepted final IDF and EPW pairs matched the case manifest. |
+| Local archived-output extraction | All 378 retained native outputs matched the corresponding frozen public references, covering 216 main, 54 narrow-B and 108 additional optical simulations. |
+| Prior annual rerun | One accepted annual was rerun, Seattle Medium Office Case B. It completed 8,760 hours with 97 warnings and zero severe errors. All 355 archive-assisted checks passed. |
+| Public-reference comparison | The same Seattle rerun's extracted result passed 99 checks against the checkout's public data, without the accepted native archive. |
+
+The Seattle public-reference check covered case identity, annual hours, treated
+roof area, occupied heating and cooling unmet hours, purchased carrier energy,
+end-use costs and the annual HVAC bill. The 355-check comparison also used
+the accepted native archive for the exact hourly clock, individual roof-face
+data, monthly end-use meters, warning signatures and roof-temperature sequence
+and inferred switching states. Those additional comparisons require the
+original native outputs.
+
+## Numerical closure
 
 | Check | Result |
 |---|---|
@@ -22,27 +44,24 @@ approval. No EnergyPlus run or raw annual extraction is performed by this releas
 | Main figure numerical backing | Accepted Figs. 2–4 and 5A/B values checked; 5C statistics rebuilt |
 | SI backing | Station/area, roof laws, prices, 15 bill/service examples, optical statistics and native traces emitted |
 
-Tested with Python 3.13.8. Validation/table generation/tests require only the
-standard library. Optional plotting dependency: matplotlib 3.11.2 (Python 3.11+).
-The five standard-library unit tests cover numerical closure/input immutability,
-CLI operation from a different working directory, frozen-output protection,
-duplicate keys and corrupted-input hash rejection.
+## Run the checks available from this repository
 
-Commands:
-
-```sh
+~~~sh
 python src/reproduce.py validate
 python src/reproduce.py tables --output generated
 python -m unittest discover -s tests -v
-```
+~~~
 
-The optional `figures` command produces numerical reference plots; it is not a
-rebuild of the approved publication artwork. Bulk publication figures were not
-regenerated during release preparation. The default tables include backing data
-for every panel even where a reference plot is a simplified view.
+The [simulation guide](../simulation/README.md) shows how to compare your own
+extracted outputs with the public reference data. The public files support
+the downstream commands immediately. Exact final modified IDFs and the native
+output archive are outside this distribution. The pinned original prototypes
+and EPWs are available from their [providers](../simulation/SOURCES.md).
+Download and verification of the original files do not establish an exact
+final-model reconstruction.
 
-The full annual simulation environment is not distributed. Fixed installed
-equipment does not imply equal delivered service. Occupied heating/cooling unmet
-hours remain separate. No annual numerical-error bound, measured coating life,
-full installed/maintenance cost, national sampling inference, physical snow
-response or environmental LCA is established by this numerical closure.
+The Seattle rerun retains its numerical-review classification. The canonical
+records retain 93 numerical-review flags and separate occupied heating and
+cooling unmet hours. Fixed installed equipment is compatible with different
+indoor conditions. The modeled results provide no annual numerical-error
+bound or field validation.
